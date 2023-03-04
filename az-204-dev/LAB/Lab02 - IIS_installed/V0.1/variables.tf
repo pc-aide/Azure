@@ -38,14 +38,19 @@ variable "subnet_names" {
 }
 
 # network security group
-variable "sg_rdp" {
+variable "nsg_vm" {
   type    = string
-  default = "sg-rdp-nic"
+  default = "sg-vm-srv-nic"
 }
 
-variable "sec_rule_name" {
+variable "sec_rule_name_rdp" {
   type    = string
   default = "AllowRDPInbound"
+}
+
+variable "sec_rule_name_http" {
+  type    = string
+  default = "AllowHTTPInbound"
 }
 
 variable "pip_name" {
