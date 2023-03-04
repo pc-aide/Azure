@@ -30,11 +30,6 @@ $pth_OneDriveSetup = "C:\Windows\SysWOW64\OneDriveSetup.exe"
 #  CUSTOM OS   #
 ################
 
-# windows features
-# wls-1
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-# enable vm feature
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
 # acl.default (Access to the path is denied) ACL: read,execute
 $acl = get-acl $pth_OneDriveSetup
