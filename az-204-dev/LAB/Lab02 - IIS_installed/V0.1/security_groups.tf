@@ -13,7 +13,7 @@ resource "azurerm_network_security_group" "sg_rdp" {
     destination_address_prefix = "*"
     destination_port_range     = "3389"
     priority                   = 100
-    source_address_prefix      = "*"
+    source_address_prefix      = var.src_address_prefix
     source_port_range          = "*"
   }
 
