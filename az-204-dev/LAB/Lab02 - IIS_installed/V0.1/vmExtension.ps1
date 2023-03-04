@@ -44,7 +44,7 @@ New-ItemProperty HKLM:\SOFTWARE\Policies\Microsoft\Edge\ `
   -Name HideFirstRunExperience -Type DWord -Value 1
 
 # Show File Extension	
-try {
+try{
 	reg load HKLM\DefaultUser C:\Users\Default\NTUSER.DAT
 	$path = "HKLM:\Defaultuser\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
 	New-ItemProperty -Path $path -Name HideFileExt -Value "0" -PropertyType DWord
