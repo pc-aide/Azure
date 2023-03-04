@@ -1,24 +1,20 @@
-# vm
-resource "azurerm_windows_virtual_machine" "vm_terraform" {
+resource "azurerm_windows_virtual_machine" "vm_srv" {
   name                = var.vm_name
   resource_group_name = var.rg_name
   location            = var.location
   size                = var.vm_size
-  #cred
-  admin_username = var.admin_user
-  admin_password = var.admin_pwd
+  # creds
+  admin_username = var.admin_username
+  admin_password = var.admin_password
   # nic
   network_interface_ids = [
-    azurerm_network_interface.vm_nic.id,
+    azurerm_network_interface.nic.id
   ]
-  # time zone
-  timezone = "Eastern Standard Time"
-
-  # os disk
+  # vm-disk
   os_disk {
-    name                 = var.vm_disk
     caching              = "ReadWrite"
-    storage_account_type = "Standard_LRS"
+    name                 = var.disk_name
+    storage_account_type = "Premium_LRS"
   }
 
   # image
@@ -29,21 +25,25 @@ resource "azurerm_windows_virtual_machine" "vm_terraform" {
     sku       = "2019-Datacenter"
     version   = "latest"
   }
+
+  # timeZone
+  timezone = "Eastern Standard Time"
 }
 
-# vm-extension 
+# bootstrap
 resource "azurerm_virtual_machine_extension" "vm_extension" {
-  name                 = var.vm_name
-  virtual_machine_id   = azurerm_windows_virtual_machine.vm_terraform.id
+  name                 = var.vm_extension
+  virtual_machine_id   = azurerm_windows_virtual_machine.vm_srv.id
   publisher            = "Microsoft.Compute"
   type                 = "CustomScriptExtension"
   type_handler_version = "1.10"
 
-  settings           = <<SETTINGS
+  settings = <<SETTINGS
     {
-        "fileUris": ["https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-dev/LAB/Lab02%20-%20IIS_installed/V0.1/vmExtension.ps1"]
+      "fileUris" : ["https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-dev/LAB/Lab02%20-%20IIS_installed/V0.1/vmExtension.ps1"]
     }
-SETTINGS
+  SETTINGS
+
   protected_settings = <<PROTECTED_SETTINGS
     {
       "commandToExecute": "powershell -ExecutionPolicy Unrestricted -File vmExtension.ps1"
