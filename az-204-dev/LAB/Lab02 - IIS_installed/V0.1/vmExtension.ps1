@@ -30,6 +30,9 @@
 #  CUSTOM OS   
 #####################################################
 
+# Install IIS
+Add-WindowsFeature -name Web-Server
+
 # Turn off the Network Location wizard
 ni HKLM:\System\CurrentControlSet\Control\Network\ -Name NewNetworkWindowOff
 
