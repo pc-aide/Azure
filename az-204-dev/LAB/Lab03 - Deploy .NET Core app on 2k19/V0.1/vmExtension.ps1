@@ -58,7 +58,6 @@ catch{
 }
  
 # Remove icons pinned to TaskBar | not work with system account
-<#
 function UnPinFromTaskbar { 
     param( [string]$appname )
     Try {
@@ -74,7 +73,6 @@ function UnPinFromTaskbar {
 
 # UnPinFromTaskbar
 UnPinFromTaskbar("Internet Explorer")
-#>
 
 #####################################################
 # PendingReboot 
