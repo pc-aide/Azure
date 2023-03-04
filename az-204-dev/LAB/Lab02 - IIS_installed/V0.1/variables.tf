@@ -70,6 +70,8 @@ variable "src_address_prefix" {
 
 # vm size
 variable "vm_size" {
+  # Standard_DS3_v2 - no hypervisor
+  # Standard_D2s_v3 - yes hypervisor because "s"
   type    = string
   default = "Standard_D2s_v3"
 }
