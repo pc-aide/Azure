@@ -33,6 +33,7 @@ $pth_OneDriveSetup = "C:\Windows\SysWOW64\OneDriveSetup.exe"
 
 # acl.default (Access to the path is denied) ACL: read,execute
 $acl = get-acl $pth_OneDriveSetup
+
 # new rule
 $AccessRule = New-Object System.Security.AccessControl.FileSystemAccessRule("nt authority\system","FullControl","Allow")
 $acl.SetAccessRule($AccessRule)
@@ -85,4 +86,4 @@ catch{
 #    reboot by using a Windows Scheduled Task or by using tools such as DSC, Chef, or Puppet extensions.
 
 # Remove PendingReboot
-restart-computer
+Restart-Computer
