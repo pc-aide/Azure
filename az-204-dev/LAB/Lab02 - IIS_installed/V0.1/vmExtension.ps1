@@ -54,7 +54,7 @@ catch{
 	$_ | out-file "d:\ErrorshowFileExtension.txt"
 }
  
-# Remove icons pinned to TaskBar
+# Remove icons pinned to TaskBar | not work with system account
 function UnPinFromTaskbar { 
     param( [string]$appname )
     Try {
@@ -64,7 +64,7 @@ function UnPinFromTaskbar {
             %{$_.DoIt()}
         }
     Catch {
-        $a="b"
+        $_ | out-file d:\error_unPinTaskbar.log
     }
 } 
 
