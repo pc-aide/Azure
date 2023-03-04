@@ -55,8 +55,21 @@ catch{
 }
  
 # Remove icons pinned to TaskBar
-# try this in futur : Import-StartLayout -MountPath $env:systemdrive\ -LayoutPath "StartLayout.bin"
-#ri "C:\Users\Default\AppData\Local\Microsoft\Windows\Shell\*" -EA 0
+function UnPinFromTaskbar { 
+    param( [string]$appname )
+    Try {
+            ((New-Object -Com Shell.Application).NameSpace('shell:::{4234d49b-0245-4df3-b780-3893943456e1}').Items() |
+            ?{$_.Name -eq $appname}).Verbs() |
+            ?{$_.Name -like "*arre des*" -OR $_.Name -like "Unpin from*"} |
+            %{$_.DoIt()}
+        }
+    Catch {
+        $a="b"
+    }
+} 
+
+# UnPinFromTaskbar
+UnPinFromTaskbar("Internet Explorer")
 
 #####################################################
 # PendingReboot 
