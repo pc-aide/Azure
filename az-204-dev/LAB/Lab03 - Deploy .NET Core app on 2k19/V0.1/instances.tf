@@ -1,6 +1,6 @@
 resource "azurerm_windows_virtual_machine" "vm_srv" {
   name                = var.vm_name
-  resource_group_name = var.rg_name
+  resource_group_name = var.rg_lab
   location            = var.location
   size                = var.vm_size
   # creds
