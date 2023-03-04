@@ -19,8 +19,9 @@ terraform graph | dot -Tsvg > graph.svg
 # deploy
 terraform apply -auto-approve
 
-# update vm-extension (optional)
-terraform apply -auto-approve -replace="azurerm_windows_virtual_machine.vm_srv"
+# to update resource (eg: vmEntension, nsg)
+# terraform state list (to list resources)
+terraform apply -auto-approve -replace="azurerm_network_security_group.nsg_nic"
 
 # destroy
 terraform destroy -auto-approve
