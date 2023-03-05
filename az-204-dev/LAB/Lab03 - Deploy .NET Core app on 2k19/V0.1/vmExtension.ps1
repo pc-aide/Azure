@@ -36,6 +36,9 @@ Try{
 #  CUSTOM OS   
 #####################################################
 
+# Disable at log on of any user 
+Disable-ScheduledTask -TaskPath "\Microsoft\Windows\Server Manager\" -TaskName servermanager
+
 # Extend volume (os disk) + ~126GB
 try{
 	$drive_letter = "C"
