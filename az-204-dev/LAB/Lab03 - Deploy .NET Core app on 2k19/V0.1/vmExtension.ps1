@@ -6,6 +6,7 @@
 #   VARIABLES   
 #####################################################
 $url_vsCommunity = "https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-dev/LAB/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/V0.1/vs_Community.exe"
+$url_customInstall = "https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-dev/LAB/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/V0.1/customInstall.json"
 
 
 #####################################################
@@ -13,18 +14,33 @@ $url_vsCommunity = "https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-
 #####################################################
 
 # visual studio 2022 community
-Try{
+try{
   Start-BitsTransfer $url_vsCommunity `
   -destination "d:\vs_community.exe"
 }catch{
   $_ | out-file "d:\error_dl_vsCommunity.txt"
 }
+try{
+  Start-BitsTransfer $url_customInstall `
+  -destination "d:\customInstall.json"
+}catch{
+	$_ | out-file "d:\error_dl_customInstall.txt"
+}
+
+
 
 #####################################################
 # INSTALL APPS 
 #####################################################
 
-
+# Install Visual Studio 2022 Community
+# Time ~13 (total space ~13.39 GB)
+# pendingReboot : yes
+try{
+	start "d:\vs_community.exe" -args "--nocache --wait --in d:\customInstall.json"
+}catch{
+	$_ | out-file "d:\error_ins_visualStudioCommunity.txt"
+}
 
 #####################################################
 #  ENV PATH
@@ -105,3 +121,4 @@ UnPinFromTaskbar("Internet Explorer")
 #    reboot by using a Windows Scheduled Task or by using tools such as DSC, Chef, or Puppet extensions.
 
 # Remove PendingReboot
+Restart-Computer
