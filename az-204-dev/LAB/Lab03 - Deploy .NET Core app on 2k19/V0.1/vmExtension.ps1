@@ -37,7 +37,7 @@ try{
 # Time ~13 (total space ~13.39 GB)
 # pendingReboot : yes
 try{
-	start "d:\vs_community.exe" -args "--nocache --wait --in d:\customInstall.json"
+	start "d:\vs_community.exe" -args "--nocache --wait --in d:\customInstall.json" -Wait
 }catch{
 	$_ | out-file "d:\error_ins_visualStudioCommunity.txt"
 }
