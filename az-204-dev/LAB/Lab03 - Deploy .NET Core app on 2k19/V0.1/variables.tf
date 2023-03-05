@@ -40,7 +40,7 @@ variable "subnet_names" {
 # network security group
 variable "nsg_vm" {
   type    = string
-  default = "nsg-nic-vm-srv"
+  default = "nsg-nic"
 }
 
 variable "sec_rule_name_rdp" {
