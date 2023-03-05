@@ -36,6 +36,16 @@ Try{
 #  CUSTOM OS   
 #####################################################
 
+# Extend volume (os disk) + ~126GB
+try{
+	$drive_letter = "C"
+	$size = (Get-PartitionSupportedSize -DriveLetter $drive_letter)
+	Resize-Partition -DriveLetter $drive_letter -Size $size.SizeMax
+	}
+catch{
+	$_ | out-file "d:\error_extend_volume_C.txt"
+	}
+
 # Install IIS
 Add-WindowsFeature -name Web-Server
 
@@ -92,4 +102,3 @@ UnPinFromTaskbar("Internet Explorer")
 #    reboot by using a Windows Scheduled Task or by using tools such as DSC, Chef, or Puppet extensions.
 
 # Remove PendingReboot
-Restart-Computer
