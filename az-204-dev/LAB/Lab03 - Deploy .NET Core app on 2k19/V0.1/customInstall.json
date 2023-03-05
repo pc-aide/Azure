@@ -8,7 +8,7 @@
   "includeRecommended": true,
   "includeOptional": false,
   "quiet": true,
-  "norestart": false,
+  "norestart": true,
 
   "addProductLang": [
     "en-US"
