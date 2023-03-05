@@ -63,6 +63,13 @@ variable "vm_name" {
   default = "vm-srv"
 }
 
+variable "vm_disk_size" {
+  type        = number
+  default     = 256
+  description = "disk size gb"
+
+}
+
 variable "nic_name" {
   type    = string
   default = "vm-nic"
