@@ -5,14 +5,20 @@
 #####################################################
 #   VARIABLES   
 #####################################################
-
+$url_vsSetup = "https://github.com/pc-aide/Azure/raw/main/az-204-dev/LAB/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/V0.1/VisualStudioSetup.exe"
 
 
 #####################################################
 # FIlES in D:\ 
 #####################################################
 
-
+# visual studio 2022 community
+Try{
+  Start-BitsTransfer $url_vsSetup `
+  -detination "d:\VisualStudioSetup.exe"
+}catch{
+  $_ | out-file "d:\error_dl_vsSetup.txt"
+}
 
 #####################################################
 # INSTALL APPS 
