@@ -77,6 +77,7 @@ variable "src_address_prefix" {
 variable "vm_size" {
   # Standard_DS3_v2 - no hypervisor
   # Standard_D2s_v3 - yes hypervisor because "s"
+  # Standard_D4s_v3 - vCPU 4 & vRAM 16 Go
   type    = string
   default = "Standard_D2s_v3"
 }
