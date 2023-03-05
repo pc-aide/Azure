@@ -16,13 +16,15 @@ $url_project = "https://github.com/pc-aide/Azure/blob/main/az-204-dev/LAB/Lab03%
 # FIlES in D:\ 
 #####################################################
 
-# visual studio 2022 community
+# Visual Studio 2022 Community
 try{
   Start-BitsTransfer $url_vsCommunity `
   -destination "d:\vs_community.exe"
 }catch{
   $_ | out-file "d:\error_dl_vsCommunity.txt"
 }
+
+#  CustomInstall.json file
 try{
   Start-BitsTransfer $url_customInstall `
   -destination "d:\customInstall.json"
@@ -30,8 +32,9 @@ try{
 	$_ | out-file "d:\error_dl_customInstall.txt"
 }
 
-# project in visual studio 2022 communitytry{
-  Start-BitsTransfer $url_project `
+# Project file
+try{
+	Start-BitsTransfer $url_project `
   -destination "d:\WebApplication1.sln"
 }catch{
 	$_ | out-file "d:\error_dl_webApp_extension_sln.txt"
