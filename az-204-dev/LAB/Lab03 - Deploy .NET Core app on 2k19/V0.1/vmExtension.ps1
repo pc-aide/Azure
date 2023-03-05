@@ -7,6 +7,9 @@
 #####################################################
 $url_vsCommunity = "https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-dev/LAB/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/V0.1/vs_Community.exe"
 $url_customInstall = "https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-dev/LAB/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/V0.1/customInstall.json"
+# https://send-anywhere.com/#transfer
+$url_project = "https://github.com/pc-aide/Azure/blob/main/az-204-dev/LAB/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/V0.1/WebApplication1.sln"
+
 
 
 #####################################################
@@ -27,7 +30,12 @@ try{
 	$_ | out-file "d:\error_dl_customInstall.txt"
 }
 
-
+# project in visual studio 2022 communitytry{
+  Start-BitsTransfer $url_project `
+  -destination "d:\WebApplication1.sln"
+}catch{
+	$_ | out-file "d:\error_dl_webApp_extension_sln.txt"
+}
 
 #####################################################
 # INSTALL APPS 
