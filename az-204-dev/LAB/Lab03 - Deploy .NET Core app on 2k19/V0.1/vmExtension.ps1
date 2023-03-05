@@ -15,7 +15,7 @@ $url_vsCommunity = "https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-
 # visual studio 2022 community
 Try{
   Start-BitsTransfer $url_vsCommunity `
-  -detination "d:\vs_community.exe"
+  -destination "d:\vs_community.exe"
 }catch{
   $_ | out-file "d:\error_dl_vsCommunity.txt"
 }
