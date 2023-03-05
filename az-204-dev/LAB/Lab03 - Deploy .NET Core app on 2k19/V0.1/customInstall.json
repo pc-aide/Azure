@@ -1,11 +1,9 @@
 {
-  "installChannelUri": ".\\ChannelManifest.json",
   "channelUri": "https://aka.ms/vs/17/release/channel",
-  "installCatalogUri": ".\\Catalog.json",
   "channelId": "VisualStudio.17.Release",
   "productId": "Microsoft.VisualStudio.Product.Community",
 
-  "includeRecommended": true,
+  "includeRecommended": false,
   "includeOptional": false,
   "quiet": true,
   "norestart": true,
