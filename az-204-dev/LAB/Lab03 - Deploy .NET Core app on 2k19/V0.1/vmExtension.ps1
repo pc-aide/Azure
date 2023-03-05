@@ -5,7 +5,7 @@
 #####################################################
 #   VARIABLES   
 #####################################################
-$url_vsSetup = "https://github.com/pc-aide/Azure/raw/main/az-204-dev/LAB/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/V0.1/VisualStudioSetup.exe"
+$url_vsCommunity = "https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-dev/LAB/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/V0.1/vs_Community.exe"
 
 
 #####################################################
@@ -14,10 +14,10 @@ $url_vsSetup = "https://github.com/pc-aide/Azure/raw/main/az-204-dev/LAB/Lab03%2
 
 # visual studio 2022 community
 Try{
-  Start-BitsTransfer $url_vsSetup `
-  -detination "d:\VisualStudioSetup.exe"
+  Start-BitsTransfer $url_vsCommunity `
+  -detination "d:\vs_community.exe"
 }catch{
-  $_ | out-file "d:\error_dl_vsSetup.txt"
+  $_ | out-file "d:\error_dl_vsCommunity.txt"
 }
 
 #####################################################
