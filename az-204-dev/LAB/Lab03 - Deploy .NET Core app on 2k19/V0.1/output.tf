@@ -3,5 +3,5 @@ output "DNS_name" {
 }
 
 output "vm_pip" {
-  value = azurerm_public_ip.pip.ip_address
+  value = azurerm_windows_virtual_machine.vm_srv.public_ip_address
 }
