@@ -79,7 +79,7 @@ variable "vm_size" {
   # Standard_D2s_v3 - yes hypervisor because "s"
   # Standard_D4s_v3 - vCPU 4 & vRAM 16 Go
   type    = string
-  default = "Standard_D2s_v3"
+  default = "Standard_D4s_v3"
 }
 
 variable "admin_username" {
