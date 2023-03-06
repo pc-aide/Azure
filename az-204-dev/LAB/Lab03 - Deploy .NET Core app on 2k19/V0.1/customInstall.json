@@ -81,6 +81,5 @@
       "Microsoft.VisualStudio.Workload.ManagedDesktop",
       "Microsoft.VisualStudio.Component.DotNetModelBuilder",
       "Microsoft.VisualStudio.Component.ManagedDesktop.Prerequisites",
-      "Microsoft.ComponentGroup.Blend"
     ]
 }
