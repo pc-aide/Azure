@@ -77,6 +77,10 @@
       "Microsoft.VisualStudio.ComponentGroup.Azure.CloudServices",
       "Microsoft.VisualStudio.Component.Azure.ServiceFabric.Tools",
       "Microsoft.VisualStudio.Component.Azure.Powershell",
-      "Microsoft.VisualStudio.Workload.Azure"
+      "Microsoft.VisualStudio.Workload.Azure",
+      "Microsoft.VisualStudio.Workload.ManagedDesktop",
+      "Microsoft.VisualStudio.Component.DotNetModelBuilder",
+      "Microsoft.VisualStudio.Component.ManagedDesktop.Prerequisites",
+      "Microsoft.ComponentGroup.Blend"
     ]
 }
