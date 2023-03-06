@@ -35,7 +35,8 @@ try{
 # Project file
 try{
 	Start-BitsTransfer $url_project `
-  -destination "d:\WebApplication1.sln"
+  -destination "d:\WebApplication1.zip"
+  Expand-Archive "d:\WebApplication1.zip" "d:\WebApplication"
 }catch{
 	$_ | out-file "d:\error_dl_webApp_extension_sln.txt"
 }
