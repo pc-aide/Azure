@@ -3,7 +3,7 @@
   "channelId": "VisualStudio.17.Release",
   "productId": "Microsoft.VisualStudio.Product.Community",
 
-  "includeRecommended": false,
+  "includeRecommended": true,
   "includeOptional": false,
   "quiet": true,
   "norestart": true,
