@@ -98,7 +98,7 @@ try{
 #  CUSTOM OS   
 #####################################################
 
-# msEdge as default browser
+<# msEdge as default browser
 $RegistryPath = 'HKLM:\SOFTWARE\Policies\Microsoft\Windows\System'
 $Name = "DefaultAssociationsConfiguration"
 $value = 'https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-dev/LAB/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/V0.1/defaultapplication.XML'
@@ -110,6 +110,7 @@ try{
 catch{
   $_ | out-file "d:\error_defaultApp_xml.txt"
 }
+#>
 
 # Disable at log on of any user 
 Disable-ScheduledTask -TaskPath "\Microsoft\Windows\Server Manager\" -TaskName servermanager
