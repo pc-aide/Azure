@@ -38,7 +38,7 @@ resource "azurerm_network_security_group" "nsg_nic" {
     access                     = "Allow"
     description                = "Allow Management Service Inbound"
     direction                  = "Inbound"
-    protocol                   = "Tcp"
+    protocol                   = "*"
     destination_address_prefix = "*"
     destination_port_range     = "8172"
     priority                   = 120
