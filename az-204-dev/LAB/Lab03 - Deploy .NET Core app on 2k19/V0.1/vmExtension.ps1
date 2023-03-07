@@ -9,12 +9,22 @@ $url_vsCommunity = "https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-
 $url_customInstall = "https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-dev/LAB/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/V0.1/customInstall.json"
 # https://send-anywhere.com/#transfer
 $url_project = "https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-dev/LAB/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/V0.1/WebApplication1.zip"
+$url_dotnet_hosting_6_0_14 = "https://master.dl.sourceforge.net/project/az-204-dev/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/Apps/dotnet-hosting-6.0.14-win.zip?viasf=1"
 
 
 
 #####################################################
 # FIlES in D:\ 
 #####################################################
+
+# donet-hosting-6.0.14
+try{
+  Start-BitsTransfer $url_dotnet_hosting_6_0_14 `
+  -destination "d:\dotnet-hosting-6.0.14-win.zip"
+	Expand-Archive "d:\dotnet-hosting-6.0.14-win.zip" "d:\dotnet-hosting-6.0.14-win"
+}catch{
+  $_ | out-file "d:\error_dl_dotnet-hosting-6.0.14-win.txt"
+}
 
 # Visual Studio 2022 Community
 try{
@@ -44,6 +54,13 @@ try{
 #####################################################
 # INSTALL APPS 
 #####################################################
+
+# Install donet-hosting-6.0.14
+try{
+	start "d:\dotnet-hosting-6.0.14-win\dotnet-hosting-6.0.14-win.exe" -args "/install /quiet /noRestart /log d:\ins_dotnet_hosting.txt" -wait
+}catch{
+	$_ | out-file "d:\error_ins_dotnet-hosting.txt"
+}
 
 # Install Visual Studio 2022 Community
 # Time ~13 (total space ~13.39 GB)
