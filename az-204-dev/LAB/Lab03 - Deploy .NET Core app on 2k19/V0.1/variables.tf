@@ -53,6 +53,12 @@ variable "sec_rule_name_http" {
   default = "AllowHTTPInbound"
 }
 
+variable "sec_rule_name_mgmtSvc" {
+  type    = string
+  default = "AllowMgmtSvcInbound"
+
+}
+
 variable "pip_name" {
   type    = string
   default = "vm-pip"
