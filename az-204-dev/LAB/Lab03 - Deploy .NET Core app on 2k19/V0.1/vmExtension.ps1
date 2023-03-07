@@ -91,7 +91,7 @@ catch{
 	}
 
 # Install IIS
-Add-WindowsFeature -name Web-Server,Web-Mgmt-Tools,Web-Mgmt-Service,NET-Framework-45-ASPNET
+Add-WindowsFeature -name Web-Server,Web-Mgmt-Tools,Web-Mgmt-Service,NET-Framework-45-ASPNET -IncludeManagementTools
 
 # Turn off the Network Location wizard
 ni HKLM:\System\CurrentControlSet\Control\Network\ -Name NewNetworkWindowOff
