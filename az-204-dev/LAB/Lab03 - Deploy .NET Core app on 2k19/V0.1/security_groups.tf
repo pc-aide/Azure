@@ -34,7 +34,7 @@ resource "azurerm_network_security_group" "nsg_nic" {
 
   # IIS\management service
   security_rule {
-    name                       = var.sec_rule_name_http
+    name                       = var.sec_rule_name_mgmtSvc
     access                     = "Allow"
     description                = "Allow Management Service Inbound"
     direction                  = "Inbound"
