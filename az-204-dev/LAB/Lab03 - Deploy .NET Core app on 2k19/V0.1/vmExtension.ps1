@@ -10,12 +10,21 @@ $url_customInstall = "https://raw.githubusercontent.com/pc-aide/Azure/main/az-20
 # https://send-anywhere.com/#transfer
 $url_project = "https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-dev/LAB/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/V0.1/WebApplication1.zip"
 $url_dotnet_hosting_6_0_14 = "https://master.dl.sourceforge.net/project/az-204-dev/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/Apps/dotnet-hosting-6.0.14-win.zip?viasf=1"
+$url_webDeploy_v3_6 = "https://raw.githubusercontent.com/pc-aide/Azure/main/az-204-dev/LAB/Lab03%20-%20Deploy%20.NET%20Core%20app%20on%202k19/V0.1/WebDeploy_amd64_en-US.msi"
 
 
 
 #####################################################
 # FIlES in D:\ 
 #####################################################
+
+# web deploy 3.6
+try{
+  Start-BitsTransfer $url_webDeploy_v3_6 `
+	-destination "d:\webDeploy_v3.6.msi"
+}catch{
+	$_ | out-file "d:\error_dl_webDeploy.txt"
+}
 
 # donet-hosting-6.0.14
 try{
@@ -60,6 +69,13 @@ try{
 	start "d:\dotnet-hosting-6.0.14-win\dotnet-hosting-6.0.14-win.exe" -args "/install /quiet /noRestart /log d:\ins_dotnet_hosting.txt" -wait
 }catch{
 	$_ | out-file "d:\error_ins_dotnet-hosting.txt"
+}
+
+# Install web deploy 3.6
+try{
+	start msiExec -args "/i d:\webDeploy_v3.6.msi /q /noRestart /l*v d:\ins_webDeplo.txt"
+}catch{
+	$_ | out-file "d:\error_ins_webDeploy.txt"
 }
 
 # Install Visual Studio 2022 Community
