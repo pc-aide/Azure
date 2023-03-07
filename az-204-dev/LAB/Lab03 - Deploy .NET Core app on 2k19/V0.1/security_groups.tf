@@ -32,6 +32,20 @@ resource "azurerm_network_security_group" "nsg_nic" {
     source_port_range          = "*"
   }
 
+  # IIS\management service
+  security_rule {
+    name                       = var.sec_rule_name_http
+    access                     = "Allow"
+    description                = "Allow Management Service Inbound"
+    direction                  = "Inbound"
+    protocol                   = "Tcp"
+    destination_address_prefix = "*"
+    destination_port_range     = "8172"
+    priority                   = 120
+    source_address_prefix      = "*"
+    source_port_range          = "*"
+  }
+
   depends_on = [
     azurerm_resource_group.rg_lab
   ]
