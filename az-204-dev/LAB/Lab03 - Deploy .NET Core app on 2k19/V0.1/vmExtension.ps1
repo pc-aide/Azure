@@ -73,7 +73,7 @@ try{
 
 # Install web deploy 3.6 - already web deploy 4.0 installed ?
 try{
-	start msiExec -args "/i d:\webDeploy_v3.6.msi /q /noRestart ADDLOCAL=ALL /l*v d:\ins_webDeplo.txt" -Wait
+	start msiExec -args "/i d:\webDeploy_v3.6.msi /q /noRestart ADDLOCAL=ALL /l*v d:\ins_webDeploy.txt" -Wait
 }catch{
 	$_ | out-file "d:\error_ins_webDeploy.txt"
 }
