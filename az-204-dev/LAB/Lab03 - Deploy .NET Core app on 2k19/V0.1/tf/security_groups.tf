@@ -1,4 +1,4 @@
-# tf : terraform
+# tf = terraform
 # Data source : Allow tf to use information defined outside of tf, defined by another separate tf configuration, or modified by functions
 # find my ISP
 data "http" "icanhazip" {
