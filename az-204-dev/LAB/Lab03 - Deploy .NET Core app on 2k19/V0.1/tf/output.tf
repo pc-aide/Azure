@@ -5,3 +5,8 @@ output "DNS_name" {
 output "vm_pip" {
   value = azurerm_windows_virtual_machine.vm_srv.public_ip_address
 }
+
+# checkUp how func work
+output "fun_chomp" {
+  value = data.http.icanhazip
+}
