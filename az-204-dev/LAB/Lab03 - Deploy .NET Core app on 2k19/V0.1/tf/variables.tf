@@ -81,11 +81,6 @@ variable "nic_name" {
   default = "vm-nic"
 }
 
-variable "src_address_prefix" {
-  type        = string
-  description = "Put your ISP for the access RDP"
-}
-
 # vm size
 variable "vm_size" {
   # Standard_DS3_v2 - no hypervisor
