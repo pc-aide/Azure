@@ -8,5 +8,5 @@ output "vm_pip" {
 
 # checkUp how func work
 output "fun_chomp" {
-  value = data.http.icanhazip
+  value = data.http.icanhazip.request_body
 }
