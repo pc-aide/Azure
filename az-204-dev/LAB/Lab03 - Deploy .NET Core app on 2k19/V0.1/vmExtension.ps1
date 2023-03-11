@@ -71,13 +71,13 @@ try{
 	$_ | out-file "d:\error_ins_dotnet-hosting.txt"
 }
 
-<# Install web deploy 3.6 - already web deploy 4.0 installed ?
+# Install web deploy 3.6 - already web deploy 4.0 installed ?
 try{
-	start msiExec -args "/i d:\webDeploy_v3.6.msi /q /noRestart /l*v d:\ins_webDeplo.txt"
+	start msiExec -args "/i d:\webDeploy_v3.6.msi /q /noRestart ADDLOCAL=ALL /l*v d:\ins_webDeplo.txt"
 }catch{
 	$_ | out-file "d:\error_ins_webDeploy.txt"
 }
-#>
+
 
 # Install Visual Studio 2022 Community
 # Time ~13 (total space ~13.39 GB)
