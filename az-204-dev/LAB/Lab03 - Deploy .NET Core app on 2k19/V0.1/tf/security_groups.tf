@@ -21,7 +21,7 @@ resource "azurerm_network_security_group" "nsg_nic" {
     destination_address_prefix = "*"
     destination_port_range     = "3389"
     priority                   = 100
-    # chomp - it's a function
+    # chomp, a function removes newline characters at the end of a string
     source_address_prefix = "${chomp(data.http.icanhazip.response_body)}/32"
     source_port_range     = "*"
   }
