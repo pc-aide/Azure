@@ -102,13 +102,14 @@ variable "ima_pub" {
 
 variable "ima_off" {
   type        = string
-  default     = "UbuntuServer"
+  default     = "0001-com-ubuntu-server-focal"
   description = "offer"
 }
 
+# az vm image list -f UbuntuServer -o table
 variable "ima_sku" {
   type        = string
-  default     = "18.04-LTS"
+  default     = "20_04-lts-gen2"
   description = "OS version"
 }
 
