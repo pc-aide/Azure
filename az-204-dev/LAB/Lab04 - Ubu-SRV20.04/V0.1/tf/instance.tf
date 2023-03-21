@@ -4,6 +4,9 @@ resource "azurerm_linux_virtual_machine" "vm_ubu" {
   resource_group_name = azurerm_resource_group.rg_lab.name
   size                = var.vm_size
 
+  # boostrap
+  custom_data = filebase64("./user_data.sh")
+
   # creds
   admin_username                  = var.adm_usr
   admin_password                  = var.adm_pwd
