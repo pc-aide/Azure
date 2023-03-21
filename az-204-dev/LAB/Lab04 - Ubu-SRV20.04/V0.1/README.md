@@ -3,7 +3,7 @@
 ---
 
 ## Steps
-### export project local machine
+### Export project local machine
 1. from our Lab03, publish your project to local machine :
 
 [<img src="https://i.imgur.com/EKxlWGl.png">](https://i.imgur.com/EKxlWGl.png)
@@ -19,3 +19,7 @@
 4. Publish
 
 [<img src="https://i.imgur.com/G0MXgb8.png">](https://i.imgur.com/G0MXgb8.png)
+
+----
+
+### 
