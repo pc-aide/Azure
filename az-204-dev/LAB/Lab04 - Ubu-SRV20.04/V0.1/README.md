@@ -59,3 +59,27 @@ curl http://localhost:5000
 ---
 
 ### install nginx
+0. swithc default page nginx by our webApp (ASP Dotnet Core 6.0)
+
+[<img src="https://i.imgur.com/H0fRxsU.png">](https://i.imgur.com/H0fRxsU.png)
+
+
+2. stop service nginx
+3. edit /etc/nginx/sites/available/default
+````sh
+# Ln48 Location / { }
+location / {
+  proxy_pass http://localhost:5000;
+  proxy_http_version 1.1;
+  proxy_set_header Upgrade $http_upgrade;
+  proxy_set_header Connection keep-alive;
+  proxy_set_header Host $host;
+  proxy_cache_bypass $http_upgrade;
+}
+```
+4. start nginx
+5. dotnet WebApplication1.dll
+
+6. we have our webApp again :
+ 
+[<img src="https://i.imgur.com/pfeEdQn.png">](https://i.imgur.com/pfeEdQn.png)
