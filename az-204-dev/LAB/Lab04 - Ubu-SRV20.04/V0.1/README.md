@@ -41,13 +41,7 @@ sudo apt-get install -y apt-transport-https && sudo apt-get update && sudo apt-g
 rm packages-microsoft-prod.deb
 ````
 
-3. Install the SDK
-````sh
-sudo apt-get update && \
-sudo apt-get install -y dotnet-sdk-7.0
-````
-
-4. compil *.dll
+2. compil *.dll
 ````sh
 # From publish_lab03
 dotnet WebApplication1.dll
@@ -55,7 +49,7 @@ dotnet WebApplication1.dll
 
 [<img src="https://i.imgur.com/U2dLfdh.png">](https://i.imgur.com/U2dLfdh.png)
 
-5. new instance ssh
+3. new instance ssh
 ````sh
 curl http://localhost:5000
 ````
