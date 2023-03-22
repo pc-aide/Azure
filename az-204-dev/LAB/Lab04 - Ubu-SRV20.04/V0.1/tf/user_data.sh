@@ -13,7 +13,7 @@ rm packages-microsoft-prod.deb
 # stop nginx
 sudo systemctl stop nginx
 
-# test - remplacer default location - Ln48
+# test - to switch the default location - Ln48
 sudo sed -i '48,/# First attempt/ {s|# First attempt|        proxy_pass http://localhost:5000;\n        proxy_http_version 1.1;\n        proxy_set_header Upgrade $http_upgrade;\n        proxy_set_header Connection keep-alive;\n        proxy_set_header Host $host;\n        proxy_cache_bypass $http_upgrade;|}' /etc/nginx/sites-available/default
 
 # start nginx
