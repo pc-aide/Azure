@@ -4,7 +4,7 @@
 
 ## Steps
 ### Inputs
-1. Name : <name_avaialbe_public> .azurewebsite.net
+1. Name : <random> .azurewebsite.net
 2. Publish : Code
 3. Runtime stack .NET 6 (LTS)
 4. OS : Windows
