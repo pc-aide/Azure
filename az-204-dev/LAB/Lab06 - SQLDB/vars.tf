@@ -52,3 +52,13 @@ variable "sql_db_sku" {
   type    = string
   default = "Basic"
 }
+
+variable "sql_fw_rul_isp" {
+  type    = string
+  default = "AllowMyISP"
+}
+
+variable "sql_fw_rul_svc" {
+  type    = string
+  default = "AllowAzSvc"
+}
