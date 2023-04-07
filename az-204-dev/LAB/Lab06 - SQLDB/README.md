@@ -4,6 +4,7 @@
 
 ## Acronym
 1. DTU - Dabase Transaction Units
+2. SSMS - SQL Server Management Studio
 
 ---
 
@@ -23,6 +24,8 @@
   
 [<img src="https://i.imgur.com/HX5BUpe.png">](https://i.imgur.com/HX5BUpe.png)
 
+---
+ 
 ### Networking
  1. Connectivity method : Public endpoint
  2. Firwall rules
@@ -30,3 +33,14 @@
  * Add current client IP address : yes
  
 [<img src="https://i.imgur.com/yXsk4R0.png">](https://i.imgur.com/yXsk4R0.png)
+
+---
+ 
+### Connect to SRV
+0. Default port : 1433
+1. [SSMS-19](https://aka.ms/ssmsfullsetup)
+2. Connect
+ * Server name : <sql_srv_fqdn>
+ * Auth : SQL SRV Atu
+  * Login : sqladmin
+  * pwd : <pwd>
