@@ -8,15 +8,17 @@
 ---
 
 ## cfg
-### Create SQL SRV
-
-
-### Create SQL DB
-#### Basic
-
-
-#### Security
-1. Computer + storage : BAsic | 2 GB storage
-2. Network connnectivity : Public endpoint
-3. Allow Azure service & resource to access this server : Yes
-4. Add current client IP address : Yes
+### Create SQL Database
+1. Database name : appDB
+2. Server\Create new
+  * server name : appserver<3000>.database.windows.net 
+    * Server should no contain reserved workd 
+    * The specified server name is not already in use
+    * lower case only
+3. Authentication method : Ue SQL auth
+  * Server admin login : sqladmin
+  * pwd : <string>
+4. Compute + storage : 
+  * Service tier : Basic (For lesss demanding workloads)
+  
+[<img src="https://i.imgur.com/HX5BUpe.png">](https://i.imgur.com/HX5BUpe.png)
