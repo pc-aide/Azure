@@ -44,3 +44,25 @@
  * Auth : SQL SRV Atu
   * Login : sqladmin
   * pwd : <pwd>
+
+[<img src="https://i.imgur.com/FDvcecV.png">](https://i.imgur.com/FDvcecV.png)
+ 
+3. New Query
+````sql
+ CREATE TABLE Products 
+(
+ ProductID int,
+	ProductName varchar(1000),
+	Quantity int
+)
+
+INSERT INTO Products(ProductID,ProductName,Quantity) VALUES (1,'Mobile',100)
+INSERT INTO Products(ProductID,ProductName,Quantity) VALUES (2,'Laptop',200)
+INSERT INTO Products(ProductID,ProductName,Quantity) VALUES (3,'Tabs',300)
+
+SELECT * FROM Products
+ ````
+
+4. Results
+ 
+[<img src="https://i.imgur.com/kB5T3PX.png">](https://i.imgur.com/kB5T3PX.png)
