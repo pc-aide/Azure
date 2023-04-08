@@ -2,6 +2,11 @@
 
 ---
 
+## URL
+1. [SSMS-19](https://aka.ms/ssmsfullsetup)
+
+---
+
 ## Acronym
 1. DTU - Dabase Transaction Units
 2. SSMS - SQL Server Management Studio
@@ -37,32 +42,4 @@
 ---
  
 ### Connect to SRV
-0. Default port : 1433
-1. [SSMS-19](https://aka.ms/ssmsfullsetup)
-2. Connect
- * Server name : <sql_srv_fqdn>
- * Auth : SQL SRV Atu
-  * Login : sqladmin
-  * pwd : <pwd>
 
-[<img src="https://i.imgur.com/FDvcecV.png">](https://i.imgur.com/FDvcecV.png)
- 
-3. New Query
-````sql
- CREATE TABLE Products 
-(
- ProductID int,
-	ProductName varchar(1000),
-	Quantity int
-)
-
-INSERT INTO Products(ProductID,ProductName,Quantity) VALUES (1,'Mobile',100)
-INSERT INTO Products(ProductID,ProductName,Quantity) VALUES (2,'Laptop',200)
-INSERT INTO Products(ProductID,ProductName,Quantity) VALUES (3,'Tabs',300)
-
-SELECT * FROM Products
- ````
-
-4. Results
- 
-[<img src="https://i.imgur.com/kB5T3PX.png">](https://i.imgur.com/kB5T3PX.png)
