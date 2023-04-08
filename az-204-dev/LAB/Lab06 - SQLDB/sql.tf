@@ -10,8 +10,7 @@ resource "azurerm_mssql_server" "sql_srv" {
   location                     = var.location
   administrator_login          = var.sql_srv_adm
   administrator_login_password = var.sql_srv_pwd
-  # where is in the Create SQL db GUI ?
-  version = var.sql_srv_ver
+  version                      = var.sql_srv_ver
 }
 
 # sql db
@@ -37,11 +36,10 @@ resource "azurerm_mssql_firewall_rule" "allow_az_svc" {
   end_ip_address   = "0.0.0.0"
 }
 
-# 
-resource "null_resource" "create_products_table" {
+resource "null_resource" "create_table" {
   depends_on = [azurerm_mssql_database.sql_db]
 
   provisioner "local-exec" {
-    command = "az sql db query --resource-group ${azurerm_resource_group.rg_lab.name} --server ${azurerm_mssql_server.sql_srv.name} --database ${azurerm_mssql_database.sql_db.name} --admin-user ${var.sql_srv_adm} --admin-password ${var.sql_srv_pwd} --query-file New_tbl_Pro.sql"
+    command = "sqlcmd -S '${azurerm_mssql_server.sql_srv.name}.database.windows.net' -U '${var.sql_srv_adm}' -P '${var.sql_srv_pwd}' -d '${azurerm_mssql_database.sql_db.name}' -i './new_tbl_pro.sql'"
   }
 }
