@@ -39,6 +39,7 @@ resource "azurerm_mssql_firewall_rule" "allow_az_svc" {
 resource "null_resource" "create_table" {
   depends_on = [azurerm_mssql_database.sql_db]
 
+  # create tbl
   provisioner "local-exec" {
     command = "sqlcmd -S '${azurerm_mssql_server.sql_srv.name}.database.windows.net' -U '${var.sql_srv_adm}' -P '${var.sql_srv_pwd}' -d '${azurerm_mssql_database.sql_db.name}' -i './new_tbl_pro.sql'"
   }
