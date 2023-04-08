@@ -41,5 +41,7 @@
 
 ---
  
-### Connect to SRV
-
+### NewProject
+1. ASP.NET Core WebApp
+2. Name : sqlApp
+2. new folder, 'Models'
