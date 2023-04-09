@@ -166,3 +166,16 @@ namespace sqlApp.Pages
 8. F5 - run the code
          
 [<img src="https://i.imgur.com/AHUnqHa.png">](https://i.imgur.com/AHUnqHa.png)
+
+---
+         
+## Publishing WebApp
+1. take lab05 - webApp
+2. publish code sqlApp :
+         
+[<img src="https://i.imgur.com/YE9POsG.png">](https://i.imgur.com/YE9POsG.png)
+         
+3. test msEdge :
+         
+[<img src="https://i.imgur.com/a1spohe.png">](https://i.imgur.com/a1spohe.png)
+         
