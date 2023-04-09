@@ -166,3 +166,14 @@ namespace sqlApp.Pages
 8. F5 - run the code
          
 [<img src="https://i.imgur.com/AHUnqHa.png">](https://i.imgur.com/AHUnqHa.png)
+
+---
+
+## publish SQLDB in WebApp
+1. visual studio publish code webApp (lab05)
+
+[<img src="https://i.imgur.com/YE9POsG.png">](https://i.imgur.com/YE9POsG.png)
+
+2. test msEdge :
+
+[<img src="https://i.imgur.com/a1spohe.png"](https://i.imgur.com/a1spohe.png)

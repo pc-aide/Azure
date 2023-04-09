@@ -21,7 +21,7 @@ terraform apply -auto-approve
 
 # to update resource (eg: vmEntension, nsg)
 # terraform state list (to list resources)
-terraform apply -auto-approve -replace="azurerm_resource_group.rg_lab"
+terraform apply -auto-approve -replace="azurerm_null_resource.create_table"
 
 # destroy
 terraform destroy -auto-approve
