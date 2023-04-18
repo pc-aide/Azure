@@ -36,7 +36,7 @@ resource "azurerm_function_app_function" "httpTrigger" {
   language        = "CSharp"
 
   # Changing this forces a new resource to be created
-  # so can't use twice file for content different
+  # so can't use more that one file for contents different
   # e.g. readme.md & run.csx
 
   # workAround : upload_files
