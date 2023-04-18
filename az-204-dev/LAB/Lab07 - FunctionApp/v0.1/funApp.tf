@@ -28,3 +28,56 @@ resource "azurerm_windows_function_app" "win_fun_app" {
     azurerm_application_insights.app_ins
   ]
 }
+
+
+resource "azurerm_function_app_function" "httpTrigger" {
+  name            = var.appFun_fun_name
+  function_app_id = azurerm_windows_function_app.win_fun_app.id
+  language        = "CSharp"
+
+  # Changing this forces a new resource to be created
+  # so can't use twice file for content different
+  # e.g. readme.md & run.csx
+
+  # workAround : upload_files
+  file {
+    name    = "run.csx"
+    content = file("./run.csx")
+  }
+
+  config_json = jsonencode({
+    "bindings" : [
+      {
+        "authLevel" : "function",
+        "name" : "req",
+        "type" : "httpTrigger",
+        "direction" : "in",
+        "methods" : [
+          "get",
+          "post"
+        ]
+      },
+      {
+        "name" : "$return",
+        "type" : "http",
+        "direction" : "out"
+      }
+    ]
+  })
+}
+
+/* upload_files
+    resource "null_resource" "upload_files" {
+  provisioner "local-exec" {
+    command = <<-EOT
+      az functionapp deployment source config-zip \
+        --src ./function_files.zip \
+        --name ${azurerm_function_app_function.example.name} \
+        --resource-group ${azurerm_function_app_function.example.resource_group_name}
+    EOT
+  }
+
+  triggers = {
+    function_app_id = azurerm_function_app_function.example.id
+  }
+  */
