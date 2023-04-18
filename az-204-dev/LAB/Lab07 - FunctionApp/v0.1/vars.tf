@@ -80,3 +80,9 @@ variable "app_ins_typ" {
   type    = string
   default = "web"
 }
+
+# funApp function
+variable "appFun_fun_name" {
+  type    = string
+  default = "httpTrigger"
+}
