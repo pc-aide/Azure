@@ -40,10 +40,11 @@ resource "azurerm_function_app_function" "httpTrigger" {
   # e.g. readme.md & run.csx
 
   # workAround : upload_files
-  file {
+  /*file {
     name    = "run.csx"
     content = file("./run.csx")
   }
+  */
 
   config_json = jsonencode({
     "bindings" : [
