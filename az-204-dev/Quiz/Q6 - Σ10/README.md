@@ -1,0 +1,11 @@
+# Q6 - Σ10
+
+---
+
+## Questions
+|n|Question|Answer|
+|-|--------|------|
+|1|Your team needs to setup a data store on Azure. They want to ensure that the data store supports the archival of data. Which of the following would be best suited for this requirement?<br/><br/>a. Azure SQL db<br/>b. Azure Cosmos DB<br/>c. Azure General Purpose V2 storage accounts|<details><summary>Answer</summary>c. Azure General Purpose V2 Storage accounts<br/><br/>The archival of data in blob storage is available as part of azure general purpose v2 storage accounts</details>|
+|2|Your team currently is using Azure Blob storage as part of a General Purpose V2 storage account. They want to ensure that blobs that are not accessed for 6 months are automatically moved to the archive tier. Which of the following feature can be used for this requirement?<br/><br/>a. Shared access signature<br/>b. lifecyle management<br/>c. resource sharing|<details><summary>Answer</summary>c. Lifecycle management<br/><br/>you can use lifecycle management to automatically transfer blobs that are not being accessed into the archive tier</details>|
+|3|Your team currently has an Azure Storage account in the East US location. The storage account has containers that contains blob data. They want to transfer the Azure Storage account to the Central US location. Which of the following is a step that can be performed for this requirement?<br/><br/>a. change the location of the existing storage account<br/>b. change the resource group of the existing storage acccount<br/>c. create a new storage account in the central us location|<details><summary>Answer</summary>c. create a new storage account in the central us location<br/><br/>you can't just transfert an azure storage account from one region to another. your first have to create a new storage account in the destination location & then copy the data manually</details>|
+|4|You have to develop a method that will be used to set the metadata properties when it comes to a blob object. You need to complete the below code for this requirement<br/>[<img src="https://i.imgur.com/2ORFBcL.png">](https://i.imgur.com/2ORFBcL.png)<br/>Which of the following would come in Slot 1?<br/><br/>a. metaData.Set<br/>b. metaData.Add<br/>||
