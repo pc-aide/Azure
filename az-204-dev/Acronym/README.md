@@ -12,3 +12,4 @@
 |4|JWT|JSON Web Token|Connexion de l'user:<br/>[<img src="https://i.imgur.com/Qi4iTkt.png">](https://i.imgur.com/Qi4iTkt.png)<br/><br/>validation JWT:<br/>[<img src="https://i.imgur.com/0iaigS4.png">](https://i.imgur.com/0iaigS4.png)|
 |5|PIM|Privileged Identity Management||
 |6|SNI|Server Name Indication|
+|7|SPA|Single page application|
