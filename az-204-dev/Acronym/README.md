@@ -7,7 +7,7 @@
 |-|----|-----|----|
 |1|ARR|Application Request Routing||
 |2|APM|Application Peformance Management||
-|3|AMQP|Advanced Message Queuing Protocol|
+|3|AMQP|Advanced Message Queuing Protocol (Azure Event Hubs)|
 |4|ASE|App service environment||
 |5|IMDS|Instance Metadata Service|169.254.169.254<br/>REST endpoint for VM & Azure metadata<br/>non-routable ip<br/>only available from the vm|
 |6|IMDS|Instance Metadata Service| 
