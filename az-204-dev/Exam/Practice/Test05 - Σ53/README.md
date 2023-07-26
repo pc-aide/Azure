@@ -65,4 +65,4 @@
 |n|Date|Note|Revision|
 |-|----|----|--------|
 |1|21-07-2023 AM|23/53 = 43%|
-|2|25-07-2023 PM|49/53 = 92%|
+|2|25-07-2023 PM|49/53 = 92%|<details><summary>Revision</summary>Q14 You have an Azure Container Registry named ContainerRegistry1. You enabled content trust for ContainerRegistry1.<br/>You need to provide access to a user named User1 to create trusted images in ContainerRegistry1.<br/>The solution must use the principle of least privilege.<br/>Which RBAC roles should you add User1?<br/><br/>a. AcrQuarantineReader<br/>b. Contributor<br/>c. AcrPush<br/>d. AcrImageSigner<br/>e. AcrQuarantineWriter<br/><br/>Q50 <br/><br/>51</details>|
