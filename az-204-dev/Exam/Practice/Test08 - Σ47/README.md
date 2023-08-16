@@ -60,3 +60,4 @@ Kubernetes Service (AKS).<br/>You must use Azure Container Registry to publish i
 |n|Date|Note|Revison|
 |-|----|----|-------|
 |1|14-08-2023 PM|22/47 = 46%|<details><summary>Revision</summary>True</details>|
+|2|16-08-2023 PM|44/47 = 93%|<details><summary>Revision</summary>True</details>|
