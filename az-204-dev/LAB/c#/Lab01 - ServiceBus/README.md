@@ -23,7 +23,7 @@
 
 ### Program.cs
 ````cs
-// Import the namespace for interacting with Azure Service Bus.
+// Import the namespace for interacting with Azure Service Bus
 
 // Namespace for the Service Bus Console application
 
@@ -37,17 +37,19 @@
 
         // method is where the program execution begins
 
-            // Create a message batch using the Sender
+            // Create a message batch instance (class) using the Sender
 
             // add 10 messages to the message Batch
 
                 // try to add a message to the batch with string : Message <number>
 
-                    // if it is too large for the batch
+                    // if it's too large for batch, show this message The message <n> is too large to fit in the batch
 
             // use the serviceBusSender client to send the batch of messages to the service bus queue
+            
+            // write in the console : A batch of 10 messages has been published to the queue
 
-            // show in the console : A batch of 10 messages has been published to the queue
+            // show in the console
 
             // closing the connections & network resource
 ````
