@@ -53,3 +53,5 @@
 
             // closing the connections & network resource
 ````
+
+<details><summary>Answer</summary></details>
