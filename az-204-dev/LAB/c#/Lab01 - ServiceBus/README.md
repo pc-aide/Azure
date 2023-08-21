@@ -43,7 +43,7 @@
 
                 // try to add a message to the batch with string : Message <number>
 
-                    // if it's too large for batch, show this message The message <n> is too large to fit in the batch
+                    // if it's too large for batch, show this message "The message <n> is too large to fit in the batch"
 
             // use the serviceBusSender client to send the batch of messages to the service bus queue
             
