@@ -31,7 +31,7 @@
 
         // variables : connection string & queueName from the SAS policy
 
-        // service bus client instance (class)
+        // service bus client instance (connectionString)
 
         // sender instance using the service bus for the queue
 
