@@ -54,4 +54,5 @@
             // closing the connections & network resource
 ````
 
+<details><summary>O/P</summary></details>
 <details><summary>Answer</summary></details>
