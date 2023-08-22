@@ -128,8 +128,35 @@ resource "azurerm_servicebus_queue_authorization_rule" "sbn_queue_auth_rul" {
 ########################################################
 # OUTPUT
 ########################################################
+````
 
+---
 
+## commands.sh
+````sh
+# account cleanUp
+az account clear
+
+# creds
+read -p "Your email: " email && az login -u $email
+
+# code format
+terraform fmt -recursive
+
+# init
+terraform init
+
+# validate
+terraform validate
+
+# deploy
+terraform apply -auto-approve
+
+# update vm-extension
+terraform apply -auto-approve -replace="azurerm_windows_virtual_machine.vm_consul"
+
+# destroy
+terraform destroy -auto-approve
 ````
 
 ---
