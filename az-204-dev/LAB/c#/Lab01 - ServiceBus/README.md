@@ -54,5 +54,5 @@
             // closing the connections & network resource
 ````
 
-<details><summary>O/P</summary></details>
+<details><summary>O/P</summary>outPut console:<br/><img src="https://i.imgur.com/bTl59jM.png"><br/>10 messages:<br/><img src="https://i.imgur.com/Wf3XLtD.png"><br/>message body:<br/><img src="https://i.imgur.com/fmQk74g.png"></details>
 <details><summary>Answer</summary></details>
