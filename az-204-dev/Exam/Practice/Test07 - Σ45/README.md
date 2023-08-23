@@ -57,4 +57,4 @@
 |n|Data|Note|Revision|
 |-|----|----|--------|
 |1|07-08-2023|20/45 = 44%|<details><summary>Revision</summary>True</details>|
-|2|10-08-2023|35/45 = 77%|<details><summary>Revision</summary>True</details>|
+|2|10-08-2023|35/45 = 77%|<details><summary>Revision</summary>Q05 You are developing an application managed photos. Users upload photos to an API which then stores the photos in an Azure blob storage of type General-purpose V2.<br/>You need to implement a module that processes photos and produce a thumbnail version of the photo. The process must start in less than one minute when photos were uploaded.<br/>To achieve requirement, you trigger the photo processing from Blob storage events<br/>Does the solution meet the goal?<br/><br/>a. yes<br/>no</details>|
