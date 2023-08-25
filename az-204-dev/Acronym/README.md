@@ -6,7 +6,7 @@
 |n|name|desc.|e.g.|
 |-|----|-----|----|
 |1|ARR|Application Request Routing||
-|2|APM|Application Peformance Management||
+|2|APM|Application Peformance Management|Insight|
 |3|AMQP|Advanced Message Queuing Protocol (Azure Event Hubs)|
 |4|ASE|App service environment||
 |5|HSTS|HTTP Strict Transport Security|
