@@ -1,0 +1,12 @@
+# P09_Σ30
+
+---
+
+## Questions
+|n|Question|Answer|
+|-|--------|------|
+|1|What advantage does a Spot VM provide over a regularly-provisioned VM?<br/><br/>a. Spot instances have a high CPU-to-memory ratio<br/>b. Spot instances are specialized VMs available with single, multiple, or fractional GPUs<br/>c. Provides burstable performance, ideal for workloads that do not need the full performance of the CPU continuously<br/>d. Spot instances are significantly cheaper|<details><summary>Answer</summary>True</details>|
+|2|Which ASP.NET method outputs log messages to the application diagnostics log?<br/><br/>a. System.Diagnostics.Debug.WriteLine("message");<br/>b. EventLog.WriteEnty("EventSource","message");<br/>c. Console.WriteLine("message")<br/>d. System.Diagnostics.Trace.TraceError("message");|<details><summary>Answer</summary>True</details>|
+|3|You would like to receive an email every time a new Azure Container Registry is created. Which of the following steps would accomplish that goal?<br/><br/>a. Go into Azure Monitor. Go into Alerts.Select the Subscription scope.Select the Create or Update Container Registry signal.Add the action group that email you.Give it a name & click save<br/>b. Create an Azure Autmation Runbook that checks your Account every 15 minutes for new resources & alerts you as new ones are created<br/>c. Azure Sevice Health can monitor your Azure account & Alert you when new resources are created on your account<br/>d. Using Azure Event Grid, you can connect into the Azure subscription to receive alerts for resources created.The Event Grid can filter those events to only Azure Container Registry, & call a Function|<details><summary>Answer</summary>True</details>|
+|4|Azure Functions store their configuration settings in which file?<br/><br/>a. web.config<br/>b. function.json<br/>c. default.js<br/>d. index.js|<details><summary>Answer</summary>True</details>|
+|5|You have a Lifecycle Storage policy that moves blobs from hot storage to cool storage if they have not been modified in 30 days. You realize that there is a frequently accessed file that is in cool storage due to this policy, and you'd like to save money by moving it back to hot storage. So you manually move this file back to hot storage. Will this solve your problem?<br/><br/>a. No, the blob will be automatically moved back to cool storage the next day<br/>b. yes|<details><summary>Answer</summary>True</details>|
