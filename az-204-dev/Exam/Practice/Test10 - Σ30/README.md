@@ -27,3 +27,18 @@
 |20|All Azure data resources (Cosmos DB, SQL Database, Redis Cache, etc) must belong to one and only one.... ?<br/><br/>a. vnet<br/>b. Availability Zone<br/>c. Resource Group<br/>d. AAD Group|<details><summary>Answer</summary>True</details>|
 |21|What is an App Service Plan?<br/><br/>a. A container running inside a VM<br/>b. A set of compute resources for a web app to run<br/>c. An isolated physical environment including network available to your applications & no other Azure customer<br/>d. A serverless environment in which App Services & Funcstions can run|<details><summary>Answer</summary>True</details>|
 |22|You have a Timer Trigger Function that uses "0 0 0 1 1 *" as it's timer setting. How often will the function run?<br/><br/>a. At 1:01 AM every day<br/>b. At 12:01 AM every day<br/>c. At midnight on Jan 1 st only<br/>d. Every Monday at 1:00 AM|<details><summary>Answer</summary>True</details>|
+|23|Which of the following Azure CLI commands is considered part of the ACR Tasks set?<br/><br/>a. az acr import<br/>b. az acr build<br/>c. az acr create<br/>d. az acr update|<details><summary>Answer</summary>True</details>|
+|24|In ASP.NET, how do you write a message to the application diagnostics log that only shows up when the user has enabled warning level messages?<br/><br/>a. Trace.WriteLine("message");<br/>b. Console.WriteLine("message");<br/>c. Trace.TraceWarning("message");<br/>d. Trace.TraceInformation("message");|<details><summary>Answer</summary>True</details>|
+|25|Which ASP.NET language is cross-platform and can run on both Windows and Linux Web Apps?<br/><br/>a. Ruby<br/>b. Python<br/>c. ASP.NET Core<br/>d. ASP.NET 4|<details><summary>Answer</summary>True</details>|
+|26|What container image formats does Azure Container Registry support?<br/><br/>a. ISO image format<br/>b. Docker images,OCI images,OCI artifacts, Helm charts<br/>c. ZIP file format<br/>d. Docker images only|<details><summary>Answer</summary>True</details>|
+|27|When deploying an Azure Storage account, and you choose Geo Redundant Storage (GRS), how many copies of your data does Azure keep?<br/><br/>a. 6<br/>b. 1<br/>c. 2<br/>d. 3|<details><summary>Answer</summary>True</details>|
+|28|What does the PowerShell command 'Get-AzVMImageSku -Location "EastUS" -PublisherName "MicrosoftWindowsServer" -Offer "WindowsServer"' return?<br/><br/>a. A list of running VMs on your subscription<br/>b. A list of publicly available Windows Server OS images in the EastUS region<br/>c. A list of available custom VM images in your Shared Image Gallery|<details><summary>Answer</summary>True</details>|
+|29|When a Virtual Machine named VM1 is deployed to a virtual network named Vnet1, and a subnet named Subnet1, which private IP address is it given?<br/><br/>a. 10.0.0.2 is always the first IP given to a VM on a new VNet<br/>b. A random & unknowable IP address<br/>c. An IP from Azure's large pool of public IP addresses<br/>d. The first available private IP address in the Subnet1 address range|<details><summary>Answer</summary>True</details>|
+|30|What can you do to ensure your Azure Redis Cache removes keys proactively instead of waiting until memory is full?<br/><br/>a. Set a low maximum cache size<br/>b. Periodically clear the entire cache<br/>c. Set an expiration value on your keys<br/>d. Store the time of last access alongside the key-values, & periodically remove keys that you consider old|<details><summary>Answer</summary>True</details>|
+
+---
+
+## Results
+|n|Date|Score|Revision|
+|-|----|-----|--------|
+|1|04-09-2023 PM|20/30 = 66%|<details><summary>Revision</summary>True</details>|
