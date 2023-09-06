@@ -19,5 +19,6 @@
 |12|PIM|Privileged Identity Management||
 |13|POP|Point of Presence||
 |14|PFX|Personal Information Exchange file| is a type of digital certificate file that contains both a private key and the corresponding public key. It is used for secure communication, particularly in the context of SSL/TLS encryption for websites or email encryption. The private key within the PFX file is typically password-protected to ensure security.<br/><br/>PFX files are commonly used to store and transfer digital certificates between different systems or to install SSL certificates on web servers. They are also used for client authentication in various secure systems.|
-|15|SNI|Server Name Indication|
-|16|SPA|Single page application|
+|15|scm|Site Control Manager or Source Control Manager|The URL for the Azure App Service Kudu companion app is :<br/>https://(app-name).scm.azurewebsites.net|
+|16|SNI|Server Name Indication|
+|17|SPA|Single page application|
