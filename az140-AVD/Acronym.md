@@ -5,4 +5,5 @@
 ## List
 |n|Name|Desc.|e.g.|
 |-|-------|-----|----|
-|1|VDI|Virtualized Desktop Infrastructure||
+|1|BYOD|Bring your Own Device & mobile users||
+|2|VDI|Virtualized Desktop Infrastructure||
