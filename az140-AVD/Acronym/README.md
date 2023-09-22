@@ -11,5 +11,5 @@
 |4|RPO|Recovery Point Objective|<img src="https://i.imgur.com/qOpZ0Ap.png">|
 |5|RUP|Roaming user profiles (for remote user pofiles)||
 |6|RTO|Recovery Time Objective|<img src="https://i.imgur.com/qOpZ0Ap.png">|
-|7|UPD|User Profile Disks(for remote user profiles)|
+|7|UPD|User Profile Disks(for remote user profiles)<br/>**NB**: it will be deprecated in future|
 |8|VDI|Virtualized Desktop Infrastructure||
