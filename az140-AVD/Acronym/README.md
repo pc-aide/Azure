@@ -7,6 +7,7 @@
 |-|-------|-----|----|
 |1|BCDR|Business Continuity & Disaster Recovery|
 |2|BYOD|Bring your Own Device & mobile users||
-|3|RPO|Recovery Point Objective|<img src="https://i.imgur.com/qOpZ0Ap.png">|
-|4|RTO|Recovery Time Objective|<img src="https://i.imgur.com/qOpZ0Ap.png">|
-|5|VDI|Virtualized Desktop Infrastructure||
+|3|DSCP|Differentiated Services Code Point|DSCP in Azure refers to a mechanism for marking and prioritizing network traffic to ensure Quality of Service|
+|4|RPO|Recovery Point Objective|<img src="https://i.imgur.com/qOpZ0Ap.png">|
+|5|RTO|Recovery Time Objective|<img src="https://i.imgur.com/qOpZ0Ap.png">|
+|6|VDI|Virtualized Desktop Infrastructure||
