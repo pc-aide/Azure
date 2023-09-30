@@ -6,6 +6,7 @@
 |n|Name|Desc.|
 |-|----|-----|
 |1|aka|also known as|
+|2|vhd|virtual hard drive|
 
 ---
 
