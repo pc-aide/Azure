@@ -26,7 +26,7 @@
 ## List
 |n|name|Desc.|img|e.g.|
 |-|----|-----|---|----|
-|1|AVD Client<details><summary>Toubheshoot</summary>Reset the user data:<br/>`msrdcw.exe /reset [/f]`<br/><br/>Web client won't open<br/>checkUp DNS:<br/>`nslookup rdweb.wvd.microsoft.com`</details>|
+|1|AVD Client<details><summary>Toubleshoot</summary>Reset the user data:<br/>`msrdcw.exe /reset [/f]`<br/><br/>Web client won't open<br/>checkUp DNS:<br/>`nslookup rdweb.wvd.microsoft.com`</details>|
 |2|Application group (remoteApp)|
 |3|Azure File Sync||<img src="https://i.imgur.com/kP8JKI1.png">|
 |4|Azure NetApp Files|aka DFS|Overview:<br/><img src="https://i.imgur.com/KmQm0fU.png"><br/><br/>ANF-FSLogix:<br/><img src="https://i.imgur.com/Zs1NoT0.png"><br/><br/>Previous ver:<br/><img src="https://i.imgur.com/XN9Rh2Y.png">|
