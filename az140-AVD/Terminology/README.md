@@ -14,13 +14,14 @@
 |n|Name|Desc.|
 |-|----|-----|
 |1|aka|Also Known As|
-|2|HPC|High-Performance Compute|HPC infrastructure & apps|
-|3|IOPs|Input/output operations per second|
-|4|ODFC|Office Data Folder Container (FSLogix)|
-|5|RDSH|Remote Desktop Session Host|
-|6|VDI|Virtual Desktop Infrastructures|
-|7|vhd|virtual Hard Drive|
-|8|VHDx|Hyper-V Virtual Hard Disk|
+|2|DR|Disaster Recovery|
+|3|HPC|High-Performance Compute|HPC infrastructure & apps|
+|4|IOPs|Input/output operations per second|
+|5|ODFC|Office Data Folder Container (FSLogix)|
+|6|RDSH|Remote Desktop Session Host|
+|7|VDI|Virtual Desktop Infrastructures|
+|8|vhd|virtual Hard Drive|
+|9|VHDx|Hyper-V Virtual Hard Disk|
 
 ---
 
