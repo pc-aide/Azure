@@ -7,7 +7,7 @@
 |-|----|---|
 |1|[how-msix-app-attach-works](https://learn.microsoft.com/en-us/training/modules/install-configure-apps-session-host/3-how-msix-app-attach-works)|
 |2|[Learning Path](https://learn.microsoft.com/en-us/training/browse/?terms=az-140)
-|3|[Remote Desktop Protocol (RDP) bandwidth requirements](https://learn.microsoft.com/en-us/azure/virtual-desktop/rdp-bandwidth)||
+|3|[Remote Desktop Protocol (RDP) bandwidth requirements](https://learn.microsoft.com/en-us/azure/virtual-desktop/rdp-bandwidth)|<img src="https://i.imgur.com/Kh1Po4a.png">|
 
 ---
 
