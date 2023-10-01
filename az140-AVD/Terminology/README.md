@@ -3,10 +3,11 @@
 ---
 
 ## URL
-|n|Name|
-|-|----|
+|n|Name|Img|
+|-|----|---|
 |1|[how-msix-app-attach-works](https://learn.microsoft.com/en-us/training/modules/install-configure-apps-session-host/3-how-msix-app-attach-works)|
 |2|[Learning Path](https://learn.microsoft.com/en-us/training/browse/?terms=az-140)
+|3|[Remote Desktop Protocol (RDP) bandwidth requirements](https://learn.microsoft.com/en-us/azure/virtual-desktop/rdp-bandwidth)||
 
 ---
 
@@ -29,7 +30,7 @@
 |n|name|Desc.|img|e.g.|
 |-|----|-----|---|----|
 |1|AVD Client<details><summary>Toubleshoot</summary>Reset the user data:<br/>`msrdcw.exe /reset [/f]`<br/><br/>Web client won't open<br/>checkUp DNS:<br/>`nslookup rdweb.wvd.microsoft.com`</details>|
-|2|AVD Network Connections||<img src="https://i.imgur.com/SYVVSH5.png">|
+|2|AVD Network Connections<details><summary>RDP Shortpath</summary>establishes a UDP-based transport between a Remote Desktop client & session host (it's a feature more speed on UPD vs TCP)</details>||<img src="https://i.imgur.com/ShTV88k.png">|
 |3|Application group<details><summary>Limits</summary>1. 50 Apps per App Group Limit<br/><br/>2. 200 App Groups Per AAD Tenant</details><details><summary>Workspace</summary>App Group associate to a workspace</details>|
 |4|Azure File Sync||<img src="https://i.imgur.com/kP8JKI1.png">|
 |5|Azure Image Builder (similar to TaskSequence)||
