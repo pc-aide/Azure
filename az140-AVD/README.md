@@ -11,6 +11,7 @@
 
 ## Acronym
 1. AVD - Azure Virtual Desktop
+2. IMDS - Instance Metadata Service 
 
 ---
 
