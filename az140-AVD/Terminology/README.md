@@ -19,12 +19,13 @@
 |2|DR|Disaster Recovery|
 |3|HPC|High-Performance Compute|HPC infrastructure & apps|
 |4|IOPs|Input/output operations per second|
-|5|NSG|Network Security Group|
-|6|ODFC|Office Data Folder Container (FSLogix)|
-|7|RDSH|Remote Desktop Session Host|
-|8|VDI|Virtual Desktop Infrastructures|
-|9|vhd|virtual Hard Drive|
-|10|VHDx|Hyper-V Virtual Hard Disk|
+|5|IMDS|Instance Metadata Service|
+|6|NSG|Network Security Group|
+|7|ODFC|Office Data Folder Container (FSLogix)|
+|8|RDSH|Remote Desktop Session Host|
+|9|VDI|Virtual Desktop Infrastructures|
+|10|vhd|virtual Hard Drive|
+|11|VHDx|Hyper-V Virtual Hard Disk|
 
 ---
 
