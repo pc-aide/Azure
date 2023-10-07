@@ -9,6 +9,7 @@
 |2|[Learning Path](https://learn.microsoft.com/en-us/training/browse/?terms=az-140)
 |3|[Remote Desktop Protocol (RDP) bandwidth requirements](https://learn.microsoft.com/en-us/azure/virtual-desktop/rdp-bandwidth)|<img src="https://i.imgur.com/Kh1Po4a.png">|
 |4|[instance-metadata-service](https://learn.microsoft.com/en-us/azure/virtual-machines/instance-metadata-service?tabs=windows)
+|5|[Test framerates](https://testufo.com)|AVD Web:<br/><img src="https://i.imgur.com/bMTOae3.png"> |
 
 ---
 
