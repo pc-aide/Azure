@@ -6,10 +6,11 @@
 |n|Name|Img|
 |-|----|---|
 |1|[how-msix-app-attach-works](https://learn.microsoft.com/en-us/training/modules/install-configure-apps-session-host/3-how-msix-app-attach-works)|
-|2|[Learning Path](https://learn.microsoft.com/en-us/training/browse/?teFSLogix Profile Include Listrms=az-140)
+|2|[Learning Path](https://learn.microsoft.com/en-us/training/browse/?terms=az-140)|<img src="https://i.imgur.com/YbxQd0V.png">|
 |3|[Remote Desktop Protocol (RDP) bandwidth requirements](https://learn.microsoft.com/en-us/azure/virtual-desktop/rdp-bandwidth)|<img src="https://i.imgur.com/Kh1Po4a.png">|
 |4|[instance-metadata-service](https://learn.microsoft.com/en-us/azure/virtual-machines/instance-metadata-service?tabs=windows)
-|5|[Test framerates](https://testufo.com)|AVD Web:<br/><img src="https://i.imgur.com/bMTOae3.png"> |
+|5|[Test framerates](https://testufo.com)|AVD Web:<br/><img src="https://i.imgur.com/bMTOae3.png">
+|6|[Add Languages to running Windows Image for Capture](https://github.com/Ar-Sa/Arun/blob/master/Powershell/Add%20language%20packs%20to%20a%20Windows%2010%20multi-session%20image/Add-AVDLanguagePack.ps1)
 
 ---
 
