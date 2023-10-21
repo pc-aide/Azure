@@ -44,7 +44,7 @@
 |5|Azure Image Builder (similar to TaskSequence)||
 |6|Azure NetApp Files|aka DFS|Overview:<br/><img src="https://i.imgur.com/KmQm0fU.png"><br/><br/>ANF-FSLogix:<br/><img src="https://i.imgur.com/Zs1NoT0.png"><br/><br/>Previous ver:<br/><img src="https://i.imgur.com/XN9Rh2Y.png">|
 |7|Azure Private Link|
-|8|Azure Shared Image Gallery<details><summary>Replication</summary>Available for across regions for redundancy & DS<br/><img src="https://i.imgur.com/PMxrcgt.png"></details>||
+|8|Azure Shared Image Gallery<details><summary>Replication</summary>Available for across regions for redundancy & DS<br/><img src="https://i.imgur.com/PMxrcgt.png"></details><details><summary>Versioning</summary>True</details>||
 |9|Backup vaults & Recovery Services vaults|
 |10|customRdpProperty<details><summary>To redirect our local drives to remote session</summary>`drivestoredirect:s:*`</details>|
 |11|Exe<details><summary>%programFiles%\FSLogix\Apps\frx.exe (add storageAccount vs clear text connectionString into registry)</summary>`frx.exe list-rules`<br/><br/>`frx.exe add-secure-key -key account -value <storage-account-name-here>`</details><details><summary>sysprep.exe</summary>Generalizing & capturing a vm image<br/><img src="https://i.imgur.com/YwZPqtn.png"></details><details><summary>waagent</summary>`waagent -deprovision` or `deprovision+user` parameter</details>||
