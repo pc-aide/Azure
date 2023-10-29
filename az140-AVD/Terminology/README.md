@@ -13,6 +13,7 @@
 |6|[Add Languages to running Windows Image for Capture](https://github.com/Ar-Sa/Arun/blob/master/Powershell/Add%20language%20packs%20to%20a%20Windows%2010%20multi-session%20image/Add-AVDLanguagePack.ps1)
 |7|[PowerShell Gallery](https://www.powershellgallery.com/)|
 |8|[MFA Setup](https://aka.ms/mfasetup)|
+|9|[Azure Speed](https://www.azurespeed.com/Azure/Latency)|<img src="https://i.imgur.com/nyG1yU7.png">|
 
 ---
 
