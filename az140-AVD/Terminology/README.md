@@ -14,6 +14,7 @@
 |7|[PowerShell Gallery](https://www.powershellgallery.com/)|
 |8|[MFA Setup](https://aka.ms/mfasetup)|
 |9|[Azure Speed](https://www.azurespeed.com/Azure/Latency)|<img src="https://i.imgur.com/nyG1yU7.png">|
+|10|[safe-url-list](https://learn.microsoft.com/en-us/azure/virtual-desktop/safe-url-list?tabs=azure#session-host-virtual-machines)
 
 ---
 
