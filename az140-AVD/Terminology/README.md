@@ -46,7 +46,7 @@
 |4|Azure File Sync||<img src="https://i.imgur.com/kP8JKI1.png">|
 |5|Azure Front Door (CDN)|
 |6|Azure Image Builder (similar to TaskSequence)||
-|7|Azure NetApp Files|aka DFS|Overview:<br/><img src="https://i.imgur.com/KmQm0fU.png"><br/><br/>ANF-FSLogix:<br/><img src="https://i.imgur.com/Zs1NoT0.png"><br/><br/>Previous ver:<br/><img src="https://i.imgur.com/XN9Rh2Y.png">|
+|7|Azure NetApp Files<details><summary>SMB & NFS</summary>supports both SMB and NFS protocols</details>|aka DFS or share files|Overview:<br/><img src="https://i.imgur.com/KmQm0fU.png"><br/><br/>ANF-FSLogix:<br/><img src="https://i.imgur.com/Zs1NoT0.png"><br/><br/>Previous ver:<br/><img src="https://i.imgur.com/XN9Rh2Y.png">|
 |8|Azure Private Link|
 |9|Azure Shared Image Gallery<details><summary>Replication</summary>Available for across regions for redundancy & DS<br/><img src="https://i.imgur.com/PMxrcgt.png"></details><details><summary>Versioning</summary>True</details><details><summary>Share images across multiple subscriptions</summary>True</details>||
 |10|Backup vaults & Recovery Services vaults|
