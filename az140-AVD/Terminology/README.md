@@ -32,9 +32,10 @@
 |8|ODFC|Office Data Folder Container (FSLogix)|
 |9|OOBE|Out-Of-Box Experience|
 |10|RDSH|Remote Desktop Session Host|
-|11|VDI|Virtual Desktop Infrastructures|
-|12|vhd|virtual Hard Drive|
-|13|VHDx|Hyper-V Virtual Hard Disk|
+|11|RTT|Round Trip Time (Latency)|
+|12|VDI|Virtual Desktop Infrastructures|
+|13|vhd|virtual Hard Drive|
+|14|VHDx|Hyper-V Virtual Hard Disk|
 
 ---
 
