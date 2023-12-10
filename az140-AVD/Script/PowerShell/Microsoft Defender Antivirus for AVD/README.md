@@ -20,3 +20,14 @@ Invoke-WebRequest -Uri 'https://go.microsoft.com/fwlink/?LinkID=121721&arch=x64'
 
 Start-Process -FilePath $vdmpackage -WorkingDirectory $vdmpath -ArgumentList "/x"
 ````
+
+---
+
+## GPO
+1. Path `Computer\Windows Components\Microsoft Defender Antivirus\Security Intelligence Updates\Define security intelligence location for VDI clients.`
+2. Path_Reg `HKLM\Software\Policies\Microsoft\Windows Defender\Signature Updates`
+3. Name_Reg `SharedSignatureRoot`
+4. Type_Reg : REG_SZ
+
+<img src="https://i.imgur.com/m18qo7A.png">
+
