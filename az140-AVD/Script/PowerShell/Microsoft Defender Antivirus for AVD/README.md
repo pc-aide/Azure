@@ -2,7 +2,7 @@
 
 ---
 
-## URL
+## Doc
 1. [Download and unpackage the latest updates](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/deployment-vdi-microsoft-defender-antivirus?view=o365-worldwide#download-and-unpackage-the-latest-updates)
 
 ---
