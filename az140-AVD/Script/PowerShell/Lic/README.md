@@ -14,3 +14,7 @@ $vm.LicenseType = "Windows_Client"
 Update-AzVM -ResourceGroupName <resourceGroupName> -VM $vm
 ````
 <img src="https://i.imgur.com/FBSQyZv.png">
+
+* checkUp VM is any there a lic :
+
+ <img src="https://i.imgur.com/FD4Hdnh.png">
