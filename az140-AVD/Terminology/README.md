@@ -17,6 +17,7 @@
 |10|[safe-url-list](https://learn.microsoft.com/en-us/azure/virtual-desktop/safe-url-list?tabs=azure#session-host-virtual-machines)|<img src="https://i.imgur.com/d1lmCIq.png">|
 |11|[Buy licensing](https://portal.microsoft.com/)|
 |12|[rd-web-avd](https://rdweb.wvd.microsoft.com/arm/webclient/index.html)|<img src="https://i.imgur.com/NuWAAXT.png">|
+|13|[Explore Globe Regions](https://datacenters.microsoft.com/globe/explore)|<img src="https://i.imgur.com/ff35pyo.png">|
 
 ---
 
