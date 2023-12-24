@@ -1,4 +1,4 @@
-![image](https://github.com/pc-aide/Azure/assets/36453201/e93df5ef-b7c0-4623-b8f0-6d20efe1fd97)# epub
+# epub
 
 ---
 
