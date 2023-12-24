@@ -5,7 +5,7 @@
 ## List
 |n|name|desc.|O/P|
 |-|----|-----|---|
-|1|App Registration|* Any app that outsources authentication to AAD must be registered in a directory (tenant)<br/><br/>* Registration involves telling AAD about the app, including the URL where it's located, the URL to send replies to after auth, the URI to identify your app, and more<br/><br/><ins>e.g - SAML bomgar:</ins>|
+|1|App Registration|* Any app that outsources authentication to AAD must be registered in a directory (tenant)<br/><br/>* Registration involves telling AAD about the app, including the URL where it's located, the URL to send replies to after auth, the URI to identify your app, and more<br/><br/><ins>e.g - SAML web UI login Fortigate:</ins>|
 |2|CA|<details><summary>Conditional Access</summary>True</details>|
 |3|cer file|
 |4|MFA|<ins>Something you know:</ins><br/>Password or answer to security question<br/><br/><ins>Something you possess:</ins><br/>Mobile app or token device<br/><br/><ins>Something your are:</ins><br/>Biometric property such as finger print 
