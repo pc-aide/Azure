@@ -5,7 +5,7 @@
 ## List
 |n|name|desc.|O/P|
 |-|----|-----|---|
-|1|Azure Policy|
+|1|Azure Policy|* Azure Policy helps to enfore organizational standards & to assess compliance. Through its compliance dashboard, it provides a view to evaluate the overrall state of the environment.<br/><br/>* Azure Policy also helps to bring your resources to compliance though bulk remediation for existing resources & automatic remediation for new resources 
 |2|App Registration|* Any app that outsources authentication to AAD must be registered in a directory (tenant)<br/><br/>* Registration involves telling AAD about the app, including the URL where it's located, the URL to send replies to after auth, the URI to identify your app, and more<br/><br/><ins>e.g - SAML web UI login Fortigate:</ins>|
 |3|CA|<details><summary>Conditional Access</summary>True</details>|
 |4|cer file|
