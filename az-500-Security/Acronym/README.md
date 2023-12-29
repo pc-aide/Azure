@@ -12,3 +12,4 @@
 |5|JIT|Just In Time Access||
 |6|ppk|Putty Private Key File|
 |7|SPA|Single-page application|
+|8|TDE|Transparent data encryption|SQL Server|
