@@ -17,7 +17,7 @@
 |10|Disk Encryption|<details><summary>Bitlocker</summary>True</details><details><summary>Key Vault</summary>True</details>|
 |11|Front Door|Azure Front Door is a global, scalable entry-point that use the Microsoft global edge network to create fast, secure, & widely scalable web applications. With Front Door, you can transform your global consumer & entperprise applications into robust, high-performing personalized modern applications with contents that reach a global audience through Azure|<img src="https://i.imgur.com/1SjnOvf.png">|
 |12|JIT|Allow access using SSH, RDP or PowerShell remoting only when requested<br/><br/>Inbound rule in NSG does not allow defined traffic until requested|
-|13|Kubernetes|<details><summary>Cluster Architecture</summary><img src="https://i.imgur.com/nlkq0Ix.png"><br/><img src="https://i.imgur.com/43v8Qzx.png"></details>|
+|13|Kubernetes|<details><summary>Cluster Architecture</summary><img src="https://i.imgur.com/nlkq0Ix.png"><br/><img src="https://i.imgur.com/pP3GMXa.png"></details>|
 |14|Log Analytics workspace|<details><summary>VM Connect to Log Analytics workspace deprecated</summary>not connected :<br/><img src="https://i.imgur.com/YOuqvbL.png"><br/>connected to LAW:<br/><img src="https://i.imgur.com/kDNY8vF.png"><br/></details>
 |15|MFA|<ins>Something you know:</ins><br/>Password or answer to security question<br/><br/><ins>Something you possess:</ins><br/>Mobile app or token device<br/><br/><ins>Something your are:</ins><br/>Biometric property such as finger print 
 |16|Microsoft Defender for Cloud|<details><summary>Workbooks</summary><img src="https://i.imgur.com/MDvIcd6.png"></details>|
