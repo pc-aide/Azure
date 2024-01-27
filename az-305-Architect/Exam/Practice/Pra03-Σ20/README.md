@@ -17,4 +17,18 @@
 |10|<img src="https://i.imgur.com/Fwd8d0x.png"><br/><img src="https://i.imgur.com/BWJq76e.png"><br/><img src="https://i.imgur.com/lM4JrK4.png"><br/><img src="https://i.imgur.com/egKNZxK.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/YPY57b5.png"></details>|
 |11|<img src="https://i.imgur.com/bsuugQS.png"><br/><img src="https://i.imgur.com/i1FT5lV.png"><br/><img src="https://i.imgur.com/0ngbkc7.png"><br/><img src="https://i.imgur.com/97uZbIL.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/E3pogXy.png"></details>|
 |12|<img src="https://i.imgur.com/bsuugQS.png"><br/><img src="https://i.imgur.com/i1FT5lV.png"><br/><img src="https://i.imgur.com/0ngbkc7.png"><br/><img src="https://i.imgur.com/CFLCqVj.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/cg5uNDA.png"></details>|
-|13|<img src="https://i.imgur.com/b7g6KYI.png">|<details><summary>Answer</summary>True</details>|
+|13|<img src="https://i.imgur.com/b7g6KYI.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/JCIQZ6u.png"></details>|
+|14|<img src="https://i.imgur.com/tTGOHNg.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/JCb5eLa.png"></details>|
+|15|<img src="https://i.imgur.com/oZjhywA.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/AYgyijH.png"></details>|
+|16|<img src="https://i.imgur.com/U4b0CUF.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/NC4o71S.png"></details>|
+|17|<img src="https://i.imgur.com/SQta7S1.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/lpzeGEr.png"></details>|
+|18|<img src="https://i.imgur.com/nbO9eCb.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/VmwYLAo.png"></details>|
+|19|<img src="https://i.imgur.com/AMzS18o.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/vZteymT.png"></details>|
+|20|<img src="https://i.imgur.com/Wvo8Ya0.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/nTVVMXO.png"></details>|
+
+---
+
+## Scores
+|n|date|result|
+|-|----|------|
+|1|
