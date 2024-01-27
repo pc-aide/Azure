@@ -9,3 +9,4 @@
 |2|<img src="https://i.imgur.com/aYywAM0.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/GGCeRbw.png"></details>|
 |3|<img src="https://i.imgur.com/DNQ5Mkm.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/rctniuJ.png"></details>|
 |4|<img src="https://i.imgur.com/lhTPNNg.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/HoI80C5.png"></details>|
+|5|<img src="https://i.imgur.com/15mhTDN.png">|<details><summary>Answer</summary>True</details>|
