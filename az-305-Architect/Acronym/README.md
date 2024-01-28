@@ -5,4 +5,5 @@
 ## List
 |n|acronym|desc.|e.g.|O/P|
 |-|-------|-----|----|---|
-|1|ITSM|IT Service Management|
+|1|AMQ|Advanced Message Queueing Protocol|
+|2|ITSM|IT Service Management|
