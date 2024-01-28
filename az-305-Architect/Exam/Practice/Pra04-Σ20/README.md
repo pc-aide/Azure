@@ -29,6 +29,6 @@
 ---
 
 ## Scores
-|n|datea|resutl|
-|-|-----|------|
+|n|date|resutl|
+|-|----|------|
 |1|
