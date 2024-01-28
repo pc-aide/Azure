@@ -20,4 +20,15 @@
 |13|<img src="https://i.imgur.com/8muTXm5.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/e7Wqfm5.png"></details>|
 |14|<img src="https://i.imgur.com/SH5dOd8.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/vv3rGIy.png"></details>|
 |15|<img src="https://i.imgur.com/qT0tQ8h.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/Y3WaEde.png"></details>|
-|16|
+|16|<img src="https://i.imgur.com/FqpLdAi.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/gFg8Rdc.png"></details>|
+|17|<img src="https://i.imgur.com/Y1NBJ8C.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/SR7LT2Q.png"></details>|
+|18|<img src="https://i.imgur.com/IMQXxXm.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/M7z0wLW.png"></details>|
+|19|<img src="https://i.imgur.com/Nd3UcSq.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/b7ZMI92.png"></details>|
+|20|<img src="https://i.imgur.com/xwPMiPp.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/1YcqYpq.png"></details>|
+
+---
+
+## Scores
+|n|date|result|
+|-|----|------|
+|1|
