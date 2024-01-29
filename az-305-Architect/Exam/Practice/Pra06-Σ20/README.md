@@ -5,4 +5,4 @@
 ## Questions
 |n|Question|Answer|
 |-|--------|------|
-|1|
+|1|<img src="https://i.imgur.com/w6x7WMb.png">|<details><summary>Answer</summary>True</details>|
