@@ -22,3 +22,13 @@
 |15|<img src="https://i.imgur.com/02HGgjQ.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/bCdgNca.png"></details>|
 |16|<img src="https://i.imgur.com/u6mt4hI.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/XiV6HEf.png"></details>|
 |17|<img src="https://i.imgur.com/ZR9Vy6t.png"><br/><img src="https://i.imgur.com/o0UeIqB.png"><br/><img src="https://i.imgur.com/vMRKIB5.png"><br/><img src="https://i.imgur.com/WWANx0g.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/6cURRoG.png"></details>|
+|18|<img src="https://i.imgur.com/ZR9Vy6t.png"><br/><img src="https://i.imgur.com/o0UeIqB.png"><br/><img src="https://i.imgur.com/vMRKIB5.png"><br/><img src="https://i.imgur.com/U3vUglT.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/03lPzvA.png"></details>|
+|19|<img src="https://i.imgur.com/ZR9Vy6t.png"><br/><img src="https://i.imgur.com/o0UeIqB.png"><br/><img src="https://i.imgur.com/vMRKIB5.png"><br/><img src="https://i.imgur.com/mhvGK46.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/6HnTwB7.png"></details>|
+|20|<img src="https://i.imgur.com/JCLLDGq.png"><br/><img src="https://i.imgur.com/xBqpVfZ.png"><br/><img src="https://i.imgur.com/jFdyVF6.png"><br/><img src="https://i.imgur.com/yfDus43.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/gROohoe.png"></details>|
+
+---
+
+## Scores
+|n|data|result|
+|-|----|------|
+|1|
