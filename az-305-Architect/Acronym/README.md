@@ -7,7 +7,8 @@
 |-|-------|-----|----|---|
 |1|AMQ|Advanced Message Queueing Protocol|
 |2|APIM|API Management|
-|3|IMDS|Azure Instance Metadata Service|
-|4|ITSM|IT Service Management|
-|5|RPO|Recovery Point Objective|
-|6|RTO|Recovery Time Objective|
+|3|HPC|High-Performance Computing|Windows HPC cluster|
+|4|IMDS|Azure Instance Metadata Service|
+|5|ITSM|IT Service Management|
+|6|RPO|Recovery Point Objective|
+|7|RTO|Recovery Time Objective|
