@@ -10,5 +10,6 @@
 |3|HPC|High-Performance Computing|Windows HPC cluster|
 |4|IMDS|Azure Instance Metadata Service|
 |5|ITSM|IT Service Management|
-|6|RPO|Recovery Point Objective|
-|7|RTO|Recovery Time Objective|
+|6|RDMA|Remote Direct Memory Access|
+|7|RPO|Recovery Point Objective|
+|8|RTO|Recovery Time Objective|
