@@ -10,4 +10,8 @@
 |3|<img src="https://i.imgur.com/JFnTkqD.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/H05slJv.png"></details>|
 |4|<img src="https://i.imgur.com/rNVhNiH.png"><br/><img src="https://i.imgur.com/Y20g3ve.png"><br/><img src="https://i.imgur.com/uCOXzsE.png"><br/><img src="https://i.imgur.com/Qlrpwh3.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/1wkLSXb.png"></details>|
 |5|<img src="https://i.imgur.com/rNVhNiH.png"><br/><img src="https://i.imgur.com/Y20g3ve.png"><br/><img src="https://i.imgur.com/uCOXzsE.png"><br/><img src="https://i.imgur.com/OGvuYNm.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/aJKa50R.png"></details>|
-|6|<img src="https://i.imgur.com/rNVhNiH.png"><br/><img src="https://i.imgur.com/Y20g3ve.png"><br/><img src="https://i.imgur.com/uCOXzsE.png"><br/><img src="https://i.imgur.com/X0bVIT5.png">|<details><summary>Answer</summary>True</details>|
+|6|<img src="https://i.imgur.com/rNVhNiH.png"><br/><img src="https://i.imgur.com/Y20g3ve.png"><br/><img src="https://i.imgur.com/uCOXzsE.png"><br/><img src="https://i.imgur.com/X0bVIT5.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/OYBq0EU.png"></details>|
+|7|<img src="https://i.imgur.com/5qwGzZ9.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/S18WNQy.png"></details>|
+|8|<img src="https://i.imgur.com/JL2B7y5.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/f01IaA9.png"></details>|
+|9|<img src="https://i.imgur.com/SQNZy9J.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/ktNJGB3.png"></details>|
+|10|<img src="https://i.imgur.com/teHiuGB.png">|<details><summary>Answer</summary>True</details>|
