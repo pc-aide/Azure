@@ -11,6 +11,7 @@
 |4|HPC|High-Performance Computing|Windows HPC cluster|
 |5|IMDS|Azure Instance Metadata Service|
 |6|ITSM|IT Service Management|
-|7|RDMA|Remote Direct Memory Access|
-|8|RPO|Recovery Point Objective|
-|9|RTO|Recovery Time Objective|
+|7|SSIS|SQL Server Integration Services|
+|8|RDMA|Remote Direct Memory Access|
+|9|RPO|Recovery Point Objective|
+|10|RTO|Recovery Time Objective|
