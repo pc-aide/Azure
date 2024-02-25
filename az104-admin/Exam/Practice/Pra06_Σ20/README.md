@@ -12,3 +12,10 @@
 |5|<img src="https://i.imgur.com/AoSNQBo.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/eWPsM4J.png"></details>|
 |6|<img src="https://i.imgur.com/A55Sgeb.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/vxXJ4zo.png"></details>|
 |7|<img src="https://i.imgur.com/lLV8ciL.png"><img src="https://i.imgur.com/zA8qnjr.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/Qyn79al.png"></details>|
+
+---
+
+## Scores
+|n|date|result|
+|-|----|------|
+|1|25fev2024 PM|15/20 = 75%|
