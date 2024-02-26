@@ -12,6 +12,8 @@
 |5|<img src="https://i.imgur.com/AoSNQBo.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/eWPsM4J.png"></details>|
 |6|<img src="https://i.imgur.com/A55Sgeb.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/vxXJ4zo.png"></details>|
 |7|<img src="https://i.imgur.com/lLV8ciL.png"><img src="https://i.imgur.com/zA8qnjr.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/Qyn79al.png"></details>|
+|8|<img src="https://i.imgur.com/eFwmwoD.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/yv8Gjtm.png"></details>|
+|9|
 
 ---
 
