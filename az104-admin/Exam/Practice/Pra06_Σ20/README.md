@@ -13,7 +13,7 @@
 |6|<img src="https://i.imgur.com/A55Sgeb.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/vxXJ4zo.png"></details>|
 |7|<img src="https://i.imgur.com/lLV8ciL.png"><img src="https://i.imgur.com/zA8qnjr.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/Qyn79al.png"></details>|
 |8|<img src="https://i.imgur.com/eFwmwoD.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/yv8Gjtm.png"></details>|
-|9|
+|9|<img src="https://i.imgur.com/j7khYXU.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/tjrZZc9.png"></details>|
 
 ---
 
