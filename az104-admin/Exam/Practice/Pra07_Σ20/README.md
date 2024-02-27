@@ -16,6 +16,8 @@
 |9|<img src="https://i.imgur.com/Xymur3q.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/QzYNPwe.png"></details>|
 |10|<img src="https://i.imgur.com/fkJ6f9Q.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/1MRBNh6.png"></details>|
 |11|<img src="https://i.imgur.com/t1FgMb4.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/NDPbOsT.png"></details>|
+|12|<img src="https://i.imgur.com/swsByKT.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/C71xUVB.png"></details>|
+|13|<img src="https://i.imgur.com/XX7oVcq.png"><img src="https://i.imgur.com/ORwLrUV.png">|<details><summary>Answer</summary>True</details>|
 
 ---
 
