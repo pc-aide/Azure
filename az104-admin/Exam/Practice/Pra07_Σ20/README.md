@@ -21,7 +21,10 @@
 |14|<img src="https://i.imgur.com/2Qaj0mt.png"><img src="https://i.imgur.com/vEYXMBM.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/BNEVhim.png"></details>|
 |15|<img src="https://i.imgur.com/bHCAVHR.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/BouQsmw.png"></details>|
 |16|<img src="https://i.imgur.com/DiSm0dg.png"><img src="https://i.imgur.com/QG8Yz9G.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/WxmyuBu.png"></details>|
-|17|<img src="https://i.imgur.com/81w0bTI.png"><img src="https://i.imgur.com/D4Mo1uq.png">|<details><summary>Answer</summary>True</details>|
+|17|<img src="https://i.imgur.com/81w0bTI.png"><img src="https://i.imgur.com/D4Mo1uq.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/4o8caBI.png"></details>|
+|18|<img src="https://i.imgur.com/COTWBjq.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/yit5cc8.png"></details>|
+|19|<img src="https://i.imgur.com/dnbcFvO.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/yhj1iFK.png"></details>|
+|20|<img src="https://i.imgur.com/tzXBoBK.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/kZvKGFJ.png"></details>|
 
 ---
 
