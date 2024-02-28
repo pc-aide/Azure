@@ -20,7 +20,7 @@
 |13|<img src="https://i.imgur.com/VOgFzij.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/7oRY9aL.png"></details>|
 |14|<img src="https://i.imgur.com/DnjRHwI.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/PBCcmEg.png"></details>|
 |15|<img src="https://i.imgur.com/EI4AxDy.png">|<details><summary>Answer</summary><img src="https://i.imgur.com/WVfg7Df.png"></details>|
-|16|<img src="https://i.imgur.com/LgOBc5i.png">
+|16|<img src="https://i.imgur.com/LgOBc5i.png"><img src="https://i.imgur.com/gqvXClC.png">|<details><summary>Answer</summary>True</details>|
 
 ---
 
