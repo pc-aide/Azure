@@ -8,3 +8,4 @@
 |1|AI|Artificial Intelligence|
 |2|ML|Machine Learning|
 |3|LUIS|Language Understanding|
+|4|OCR|Optical Character Recognition|
