@@ -10,3 +10,4 @@
 |3|regression|predicts values<details><summary>regression model</summary>root mean squared error (RMSE)<br/>coefficient of determination (r2)</details>|
 |4|Sensitivity|<img src="https://i.imgur.com/iu7luBa.png">|
 |5|Specificity|<img src="https://i.imgur.com/ipl7QCI.png">|
+|6|Tokenization|Tokenization breaks text into smaller parts for easier machine analysis, helping machines understand human language|<img src="https://i.imgur.com/Z3Ax8Ci.png">|
