@@ -11,4 +11,5 @@
 |4|regression|predicts values<details><summary>regression model</summary>root mean squared error (RMSE)<br/>coefficient of determination (r2)</details>|
 |5|Sensitivity|<img src="https://i.imgur.com/iu7luBa.png">|
 |6|Specificity|<img src="https://i.imgur.com/ipl7QCI.png">|
-|7|Tokenization|Tokenization breaks text into smaller parts for easier machine analysis, helping machines understand human language<br/><br/>ChatGPT, in its current setup, has a tokenization limit of around 4096 tokens. Tokens can be words, parts of words, or even punctuation, depending on the language and complexity of the text|<img src="https://i.imgur.com/Z3Ax8Ci.png">|
+|7|Responsible AI|<details><summary>1/6 Fairness</summary>True</details>
+|8|Tokenization|Tokenization breaks text into smaller parts for easier machine analysis, helping machines understand human language<br/><br/>ChatGPT, in its current setup, has a tokenization limit of around 4096 tokens. Tokens can be words, parts of words, or even punctuation, depending on the language and complexity of the text|<img src="https://i.imgur.com/Z3Ax8Ci.png">|
