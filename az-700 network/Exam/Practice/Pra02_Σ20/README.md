@@ -3,4 +3,6 @@
 ---
 
 ## Results
-|n|date|score
+|n|date|score|
+|-|----|-----|
+|1|
