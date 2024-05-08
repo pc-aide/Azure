@@ -7,4 +7,5 @@
 |-|----|-----|---|
 |1|Deleted objects container|If groups in AD were mistakenly deleted due to misinformation, this feature allows them to be restored|<img src="https://i.imgur.com/TUO8RzF.png">|
 |2|dcdiag|tool will analyze the state of the health of AD DS DCs|<img src="https://i.imgur.com/tOIu3R4.png">|
-|3|repadmin|tool helps you view the service's health & diagnose replication problems between DCs|repadmin /replsummary<br/><img src="https://i.imgur.com/vlLxpOK.png">|
+|3|netdom|tool allows you to manage AD DS trust; it can also join a computer to a domain, manage computer accounts, query for domain information such as which DCs hold the FSMO roles, and more|error - the trust relationship between this workstation & the primary domain failed<br/><img src="https://i.imgur.com/qTBSMez.png"><br/>Local Administrator<br/><img src="https://i.imgur.com/AA60QXe.png"><br/>utility netdom<br/>`C:\Windows\System32>netdom.exe resetpwd /s:w2k8r2-dc01 /ud:NOLABNOPARTY\Administrator /pd:*`<br/><img src="https://i.imgur.com/isX9qc9.png">|
+|4|repadmin|tool helps you view the service's health & diagnose replication problems between DCs|repadmin /replsummary<br/><img src="https://i.imgur.com/vlLxpOK.png">|
