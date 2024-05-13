@@ -38,7 +38,7 @@
         document.getElementById('showSolution').addEventListener('click', function() {
             var solution = "B. No"; // Solution statique
             var highlightedAnswer = document.createElement('div');
-            highlightedAnswer.textContent = "Solution: " + solution;
+            highlightedAnswer.innerHTML = "<img src='https://github.com/pc-aide/Azure/blob/main/az-800%3A%20Administering%20Windows%20Server%20Hybrid%20Core%20Infrastructure/Exam/Pre-Exam/Pra01_%CE%A320/PDC%20role.png' alt='PDC Role'><br><img src='https://github.com/pc-aide/Azure/blob/main/az-800%3A%20Administering%20Windows%20Server%20Hybrid%20Core%20Infrastructure/Exam/Pre-Exam/Pra01_%CE%A320/PDC.png' alt='PDC Image'><br>Solution: " + solution;
             highlightedAnswer.classList.add('highlight'); // Ajouter la classe de surlignage
             document.getElementById('solutionInfo').textContent = ""; // Effacer tout contenu précédent
             document.getElementById('solutionInfo').appendChild(highlightedAnswer); // Afficher la réponse au-dessus du bouton Solution
