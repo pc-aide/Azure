@@ -23,9 +23,9 @@
     <form action="#">
         <fieldset>
             <legend>Does this meet the goal?</legend>
-            <input type="checkbox" id="yes" name="answer" value="yes">
+            <input type="radio" id="yes" name="answer" value="yes">
             <label for="yes">A. Yes</label><br>
-            <input type="checkbox" id="no" name="answer" value="no">
+            <input type="radio" id="no" name="answer" value="no">
             <label for="no">B. No</label><br>
         </fieldset>
     </form>
@@ -36,17 +36,13 @@
 
     <script>
         document.getElementById('showSolution').addEventListener('click', function() {
-            // Récupérer la réponse sélectionnée
-            var answer = document.querySelector('input[name="answer"]:checked');
-            if (answer && answer.value === 'no') { // Vérifier si la réponse est "B. No"
-                var answerText = answer.nextElementSibling.textContent.trim();
-                var highlightedAnswer = document.createElement('div');
-                highlightedAnswer.textContent = answerText;
-                highlightedAnswer.classList.add('highlight'); // Ajouter la classe de surlignage
-                document.getElementById('solutionInfo').textContent = ""; // Effacer tout contenu précédent
-                document.getElementById('solutionInfo').appendChild(highlightedAnswer); // Afficher la réponse au-dessus du bouton Solution
-                document.getElementById('solutionInfo').style.display = 'block'; // Afficher l'info
-            }
+            var solution = "B. No"; // Solution statique
+            var highlightedAnswer = document.createElement('div');
+            highlightedAnswer.textContent = "Solution: " + solution;
+            highlightedAnswer.classList.add('highlight'); // Ajouter la classe de surlignage
+            document.getElementById('solutionInfo').textContent = ""; // Effacer tout contenu précédent
+            document.getElementById('solutionInfo').appendChild(highlightedAnswer); // Afficher la réponse au-dessus du bouton Solution
+            document.getElementById('solutionInfo').style.display = 'block'; // Afficher l'info
         });
     </script>
 </body>
